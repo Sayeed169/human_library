@@ -1,5 +1,5 @@
 body{
-	/*color: white;*/
+	/*color: #1E585A;*/
 	/*background-color: #1E585A;*/
 }
 
@@ -78,8 +78,8 @@ p{
 }
 
 .count{
-	background-color: gray;
-	color: silver;
+	/*background-color: gray;*/
+	/*color: silver;*/
 }
 
 .count-header{
@@ -89,8 +89,9 @@ p{
 .count-caption{
 
 }
+
 #myVideo{
-	/*position: fixed;*/
+	/*position: relative;*/
 	right: 0;
 	bottom: 0;
 	width: 100%;
@@ -98,7 +99,7 @@ p{
 }
 
 .content{
-	/*position: fixed;*/
+	/*position: absolute;*/
 	bottom: 0;
 	background: gray;
 	color: #f1f1f1;

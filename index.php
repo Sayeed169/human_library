@@ -97,10 +97,6 @@
           <button id="myBtn" onclick="myFunction()">Pause</button>
         </div>
       </div>
-
-      <video autoplay muted loop id="myVideo">
-        <source src="https://www.youtube.com/watch?v=N_uE" type="video/mp4">
-      </video>
       
       <!--WORK FLOW DIV for LARGE SCREEN-->
       <div class="d-md-block d-none">
@@ -128,15 +124,15 @@
       <div class="d-md-none d-block">
         <div class="col-md-8 offset-md-2 col-12 text-center content-div">
           <h1 class="content-div">How does it work?</h1>
-          <div class="col-12 border border-right-0">
+          <div class="col-12 border border-dark border-right-0 border-top-0">
             <h5>STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
-          <div class="col-12 border border-left-0 border-top-0">
+          <div class="col-12 border border-dark border-left-0 border-top-0">
             <h5>STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
-          <div class="col-12 border border-top-0 border-right-0">
+          <div class="col-12 border border-dark border-top-0 border-right-0">
             <h5>STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
@@ -147,7 +143,7 @@
       </div>
 
       <!--SUBSCRIBE-->
-      <div>  
+      <div class="d-none">  
         <div class="col-md-6 offset-md-3 col-12 content-div">
           <h3 class="text-center">Join our mailing list!</h3>
           <p class="text-center">Receive the latest updates about our upcoming events!</p>
