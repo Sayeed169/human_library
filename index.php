@@ -83,6 +83,10 @@
         </div>
       </div>     
 
+      <video autoplay muted loop id="myVideo">
+        <source src="https://www.youtube.com/watch?v=N_uE" type="video/mp4">
+      </video>
+      
       <!--WORK FLOW DIV for LARGE SCREEN-->
       <div class="d-md-block d-none">
         <div class="col-md-8 offset-md-2 col-12 text-center content-div">
