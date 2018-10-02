@@ -32,7 +32,7 @@
         <img src=<?php echo HL_LOGO;?> width="128" height="128" style="margin: 10px;" class="d-inline-block align-bottom" alt="">
       </div> -->
 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2" id="navbar">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="navbar">
           <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
@@ -81,7 +81,22 @@
         <div class="text-center">
           <h1><i class="fas fa-angle-double-down text-dark"></i></h1>
         </div>
-      </div>     
+      </div>
+
+      <div class="">
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+          <source src="resources/video/Human Library Dhaka.MP4" type="video/mp4">
+        </video>
+
+        <!-- Overlay text to describe the video -->
+        <div class="content">
+          <h1>Heading</h1>
+          <p>Lorem ipsum...</p>
+          <!-- Use a button to pause/play the video with JavaScript -->
+          <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+      </div>
 
       <video autoplay muted loop id="myVideo">
         <source src="https://www.youtube.com/watch?v=N_uE" type="video/mp4">
@@ -91,15 +106,15 @@
       <div class="d-md-block d-none">
         <div class="col-md-8 offset-md-2 col-12 text-center content-div">
           <h1 class="content-div">How does it work?</h1>
-          <div class="col-4 border border-top-0 border-right-0">
+          <div class="col-4 border border-dark border-top-0 border-right-0">
             <h5>STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
-          <div class="col-4 offset-4 border border-top-0 border-right-0">
+          <div class="col-4 offset-4 border border-dark border-top-0 border-right-0">
             <h5>STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
-          <div class="col-4 offset-8 border border-top-0 border-right-0">
+          <div class="col-4 offset-8 border border-dark border-top-0 border-right-0">
             <h5>STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
@@ -117,7 +132,7 @@
             <h5>STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
-          <div class="col-12 border border-left-0">
+          <div class="col-12 border border-left-0 border-top-0">
             <h5>STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
@@ -156,7 +171,7 @@
       </div>
 
       <!--Courasel-->
-      <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel" data-interval="2000" data-pause="false" style="height:70% !important; overflow: hidden !important;">
+      <div id="carouselExampleIndicators" class="carousel carousel-fade col-8 offset-2" data-ride="carousel" data-interval="2000" data-pause="false" style="height:70% !important; overflow: hidden !important;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -171,7 +186,7 @@
             <img class="d-block w-100" src="resources/images/be_a_v2.jpg" alt="">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/hld_banner.jpg" alt="">
+            <img class="d-block w-100" src="resources/images/hld_banner.png" alt="">
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="resources/images/1.1.jpg" alt="">
@@ -187,26 +202,49 @@
         </a>
       </div>
 
+      <!-- JOURNEY SO FAR -->
+      <div class="count">
+        <div class="text-center col-md-8 offset-md-2 col-12 content-div">
+          <h1 class="content-div">Journey so far</h3>
+          <div class="row">
+            <div class="col-md col-12">
+              <h3 class="count-header">50</h3>
+              <i class="fas fa-book"></i>
+              <p class="count-caption">Books</p>
+            </div>
+            <div class="col-md col-12">
+              <h3 class="count-header">100</h3>
+              <i class="fas fa-glasses"></i>
+              <p class="count-caption">Readers</p>
+            </div>
+            <div class="col-md col-12">
+              <h3 class="count-header">4</h3>
+              <i class="fas fa-clipboard-check"></i>
+              <p class="count-caption">Sessions</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--Get Involved DIV-->
       <div>
         <div class="col-md-8 offset-md-2 col-12 content-div">
           <h3 class="text-center content-div">Get involved</h3>
           <div class="row text-center">
             <div class="col-md-6 col-12">
-              <a href="#">
-                <div class="figure img-thumbnail">
-                  <img src="resources/images/be_a_b.jpg" class="img-fluid rounded" alt="Become a book in Human Library Bangladesh">
-                  <h4 class="figure-caption">BE A BOOK</h4>
-                </div>
-              </a>
+              <div class="figure">
+                <img src="resources/images/be_a_b.jpg" class="img-fluid rounded" alt="Become a book in Human Library Bangladesh">
+                <h4 class="figure-caption">
+                  <a href="#" class="btn btn-member">BE A BOOK</a>
+                </h4>
+              </div>
             </div>
             <div class="col-md-6 col-12">
-              <a href="#">
-                <div class="figure img-thumbnail">
+                <div class="figure">
                   <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded" alt="Become a volunteer in Human Library Bangladesh">
-                  <h4 class="figure-caption">BE A VOLUNTEER</h4>
+                  <h4 class="figure-caption">
+                    <a href="#" class="btn btn-member">BE A VOLUNTEER</a>
+                  </h4>
                 </div>
-              </a>
             </div>
           </div>
         </div>  
