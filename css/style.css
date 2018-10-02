@@ -14,7 +14,7 @@ a{
 
 p{
 	padding: 10px;
-	/*text-align: center;*/
+	text-align: justify;
 }
 
 .hl-div{
@@ -84,6 +84,10 @@ p{
 
 .count-header{
 	font-size: 10vh;
+}
+
+.count > i{
+	font-size: 4vh;
 }
 
 .count-caption{

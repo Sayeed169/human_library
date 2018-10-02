@@ -13,15 +13,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="css/style.css">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Human Library Bangladesh</title>
 
@@ -61,16 +61,17 @@
       </nav>
 
       <!--WHAT IS HUMAN LIBRARY DIV-->
-      <div class="hl-div h-100">
-        <div class="text-center text-dark col-md-6 offset-md-3 col-12 content-div" style="background-color: #f0ffffbd">
+      <div class="hl-div">
+        <div class="text-center text-dark col-md-8 offset-md-2 col-12 content-div" style="background-color: #f0ffffbd">
           <img class="img-fluid" src="resources/images/hld_banner.png">&nbsp;
-          <h3>What is a Human Library?</h3>
+          <h3>WHO WE ARE?</h3>
           <p>
-            The Human Library is a concept birthed in Denmark in 2000 and is now organised all over the world. In a Human Library, real people are on loan to readers, giving readers the opportunity to listen to their stories first-hand.
+            Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
           </p>
           
+          <h3>WHY VISIT US?</h3>
           <p>
-            Through Human Library SG, we hope to break down social barriers by providing a safe platform for individuals to challenge the stereotypes and prejudices that they may have.
+            You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
           </p>
           
           <div>
@@ -78,19 +79,19 @@
           </div>
             
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
           <h1><i class="fas fa-angle-double-down text-dark"></i></h1>
-        </div>
+        </div> -->
       </div>
 
       <div class="">
         <!-- The video -->
         <video autoplay muted loop id="myVideo">
-          <source src="resources/video/Human Library Dhaka.MP4" type="video/mp4">
+          <source src="resources/video/Human Library Dhaka.MKV" type="video/mkv">
         </video>
 
         <!-- Overlay text to describe the video -->
-        <div class="content">
+        <div class="content d-none">
           <h1>Heading</h1>
           <p>Lorem ipsum...</p>
           <!-- Use a button to pause/play the video with JavaScript -->
@@ -176,16 +177,16 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="resources/images/be_a_b.jpg" alt="">
+            <img class="d-block w-100" src="resources/images/1.jpg" alt="">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/be_a_v2.jpg" alt="">
+            <img class="d-block w-100" src="resources/images/2.jpg" alt="">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/hld_banner.png" alt="">
+            <img class="d-block w-100" src="resources/images/3.jpg" alt="">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/1.1.jpg" alt="">
+            <img class="d-block w-100" src="resources/images/4.jpg" alt="">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -199,24 +200,24 @@
       </div>
 
       <!-- JOURNEY SO FAR -->
-      <div class="count">
+      <div class="">
         <div class="text-center col-md-8 offset-md-2 col-12 content-div">
           <h1 class="content-div">Journey so far</h3>
           <div class="row">
-            <div class="col-md col-12">
+            <div class="col-md col-12 count">
               <h3 class="count-header">50</h3>
               <i class="fas fa-book"></i>
-              <p class="count-caption">Books</p>
+              <h6 class="count-caption">Books</h6>
             </div>
-            <div class="col-md col-12">
+            <div class="col-md col-12 count">
               <h3 class="count-header">100</h3>
               <i class="fas fa-glasses"></i>
-              <p class="count-caption">Readers</p>
+              <h6 class="count-caption">Readers</h6>
             </div>
-            <div class="col-md col-12">
+            <div class="col-md col-12 count">
               <h3 class="count-header">4</h3>
               <i class="fas fa-clipboard-check"></i>
-              <p class="count-caption">Sessions</p>
+              <h6 class="count-caption">Sessions</h6>
             </div>
           </div>
         </div>
@@ -230,7 +231,7 @@
               <div class="figure">
                 <img src="resources/images/be_a_b.jpg" class="img-fluid rounded" alt="Become a book in Human Library Bangladesh">
                 <h4 class="figure-caption">
-                  <a href="#" class="btn btn-member">BE A BOOK</a>
+                  <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A BOOK</a>
                 </h4>
               </div>
             </div>
@@ -238,7 +239,7 @@
                 <div class="figure">
                   <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded" alt="Become a volunteer in Human Library Bangladesh">
                   <h4 class="figure-caption">
-                    <a href="#" class="btn btn-member">BE A VOLUNTEER</a>
+                    <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A VOLUNTEER</a>
                   </h4>
                 </div>
             </div>
@@ -247,28 +248,14 @@
       </div>
 
       <!--Contact-->
-      <div>  
+      <div class="text-center">  
         <div class="col-md-6 offset-md-3 col-12 content-div">
-          <h3 class="text-center">Contact us</h3>
-          <div class="text-center content-div">
+          <h3 class="">Contact us</h3>
+          <div class="content-div">
             <a href="#"><i class="fab fa-facebook-f fb-icon"></i></a>
           </div>
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="exampleInputName1" placeholder="Name" required="true">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="true" placeholder="E-mail">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject">
-            </div>
-            <div class="form-group">
-              <textarea type="text" class="form-control" id="exampleInputMessage1" placeholder="Message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
+          <h6 class="col-12">Phone +8801723880554</h6>
+          <h6 class="col-12">Email humanlibrarydhaka@gmail.com</h6>
         </div>
       </div>
     </div> 
