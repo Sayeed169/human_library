@@ -1,10 +1,15 @@
 body{
-	/*color: #1E585A;*/
 	/*background-color: #1E585A;*/
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
-	padding: 10px;
+	/*padding: 10px;*/
+	color: #1B5E20;
+}
+
+h1,h2,h3{
+	font-weight: bold;
 }
 
 a{
@@ -13,8 +18,11 @@ a{
 }
 
 p{
-	padding: 10px;
-	text-align: justify;
+	/*padding: 10px;*/
+}
+
+.bg-gray{
+	background-color: azure;
 }
 
 .hl-div{
@@ -25,11 +33,12 @@ p{
 
 }
 
-.step-div{
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	background-color: darkgray;
+.shadow-light{
+	box-shadow: 0px 0px 5px 0px;
+}
+
+.shadow-dark{
+	box-shadow: 0px 0px 5px 0px;
 }
 
 .figure{
@@ -59,27 +68,26 @@ p{
 	box-shadow: 0px 0px 10px 5px #6c757d;
 }
 .content-div{
-	padding: 30px 20px 30px 20px;
+	padding: 50px 20px 50px 20px;
 	/*background-color: lightgreen;*/
 }
 
 .btn-member{
-	font-weight: bold;
+	padding: 10px 25px 10px 25px;
+	margin: 10px;
 	background-color: white;
-	border: 1px solid darkseagreen;
-	color: darkseagreen;
+	border: 1px solid #1B5E20;
+	color: #1B5E20;
 	border-radius: 50px;
 	transition: all 0.5s;
 }
 
 .btn-member:hover{
-	background-color: darkseagreen;
+	background-color: #1B5E20;
 	color: white;
 }
 
 .count{
-	/*background-color: gray;*/
-	/*color: silver;*/
 }
 
 .count-header{
@@ -87,7 +95,8 @@ p{
 }
 
 .count > i{
-	font-size: 4vh;
+	font-size: 5vh;
+	color: #1B5E20;
 }
 
 .count-caption{

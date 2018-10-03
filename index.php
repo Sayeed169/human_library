@@ -17,6 +17,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+    <!-- IBM Plex Sans -->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet"> 
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -62,15 +65,15 @@
 
       <!--WHAT IS HUMAN LIBRARY DIV-->
       <div class="hl-div">
-        <div class="text-center text-dark col-md-8 offset-md-2 col-12 content-div" style="background-color: #f0ffffbd">
+        <div class="text-center text-dark col-md-8 offset-md-2 col-12 content-div">
           <img class="img-fluid" src="resources/images/hld_banner.png">&nbsp;
-          <h3>WHO WE ARE?</h3>
-          <p>
+          <h3>Who we are?</h3>
+          <p class="text-justify">
             Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
           </p>
           
-          <h3>WHY VISIT US?</h3>
-          <p>
+          <h3>Why visit us?</h3>
+          <p class="text-justify">
             You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
           </p>
           
@@ -122,8 +125,8 @@
       </div>
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
-      <div class="d-md-none d-block">
-        <div class="col-md-8 offset-md-2 col-12 text-center content-div">
+      <div class="d-md-none d-block content-div">
+        <div class="col-md-8 offset-md-2 col-12 text-center">
           <h1 class="content-div">How does it work?</h1>
           <div class="col-12 border border-dark border-right-0 border-top-0">
             <h5>STEP ONE</h5>
@@ -144,7 +147,7 @@
       </div>
 
       <!--SUBSCRIBE-->
-      <div class="d-none">  
+      <div class="d-none content-div">  
         <div class="col-md-6 offset-md-3 col-12 content-div">
           <h3 class="text-center">Join our mailing list!</h3>
           <p class="text-center">Receive the latest updates about our upcoming events!</p>
@@ -200,28 +203,29 @@
       </div>
 
       <!-- JOURNEY SO FAR -->
-      <div class="">
-        <div class="text-center col-md-8 offset-md-2 col-12 content-div">
+      <div class="bg-gray content-div">
+        <div class="text-center col-md-8 offset-md-2 col-12">
           <h1 class="content-div">Journey so far</h3>
           <div class="row">
             <div class="col-md col-12 count">
-              <h3 class="count-header">50</h3>
               <i class="fas fa-book"></i>
-              <h6 class="count-caption">Books</h6>
+              <h3 class="count-header">50</h3>
+              <p class="count-caption">Books</p>
             </div>
             <div class="col-md col-12 count">
-              <h3 class="count-header">100</h3>
               <i class="fas fa-glasses"></i>
-              <h6 class="count-caption">Readers</h6>
+              <h3 class="count-header">100</h3>
+              <p class="count-caption">Readers</p>
             </div>
             <div class="col-md col-12 count">
-              <h3 class="count-header">4</h3>
               <i class="fas fa-clipboard-check"></i>
-              <h6 class="count-caption">Sessions</h6>
+              <h3 class="count-header">04</h3>
+              <p class="count-caption">Sessions</p>
             </div>
           </div>
         </div>
       </div>
+
       <!--Get Involved DIV-->
       <div>
         <div class="col-md-8 offset-md-2 col-12 content-div">
@@ -229,7 +233,7 @@
           <div class="row text-center">
             <div class="col-md-6 col-12">
               <div class="figure">
-                <img src="resources/images/be_a_b.jpg" class="img-fluid rounded" alt="Become a book in Human Library Bangladesh">
+                <img src="resources/images/be_a_b.jpg" class="img-fluid rounded shadow-light" alt="Become a book in Human Library Bangladesh">
                 <h4 class="figure-caption">
                   <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A BOOK</a>
                 </h4>
@@ -237,7 +241,7 @@
             </div>
             <div class="col-md-6 col-12">
                 <div class="figure">
-                  <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded" alt="Become a volunteer in Human Library Bangladesh">
+                  <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded shadow-light" alt="Become a volunteer in Human Library Bangladesh">
                   <h4 class="figure-caption">
                     <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A VOLUNTEER</a>
                   </h4>
@@ -248,13 +252,13 @@
       </div>
 
       <!--Contact-->
-      <div class="text-center">  
+      <div class="text-center bg-gray">  
         <div class="col-md-6 offset-md-3 col-12 content-div">
           <h3 class="">Contact us</h3>
           <div class="content-div">
             <a href="#"><i class="fab fa-facebook-f fb-icon"></i></a>
           </div>
-          <h6 class="col-12">Phone +8801723880554</h6>
+          <h6 class="w-100">Phone +8801723880554</h6>
           <h6 class="col-12">Email humanlibrarydhaka@gmail.com</h6>
         </div>
       </div>
