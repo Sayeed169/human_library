@@ -35,7 +35,7 @@
         <img src=<?php echo HL_LOGO;?> width="128" height="128" style="margin: 10px;" class="d-inline-block align-bottom" alt="">
       </div> -->
 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="navbar">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbar">
           <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
@@ -65,14 +65,14 @@
 
       <!--WHAT IS HUMAN LIBRARY DIV-->
       <div class="hl-div">
-        <div class="text-center text-dark col-md-8 offset-md-2 col-12 content-div">
+        <div class="text-center text-dark col-md-6 offset-md-3 col-12 content-div">
           <img class="img-fluid" src="resources/images/hld_banner.png">&nbsp;
-          <h3>Who we are?</h3>
+          <h3 class="title">About Human Library Dhaka</h3>
           <p class="text-justify">
             Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
           </p>
           
-          <h3>Why visit us?</h3>
+          <h3 class="title">Why visit us?</h3>
           <p class="text-justify">
             You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
           </p>
@@ -87,10 +87,11 @@
         </div> -->
       </div>
 
+      <!-- VIDEO -->
       <div class="">
         <!-- The video -->
         <video autoplay muted loop id="myVideo">
-          <source src="resources/video/Human Library Dhaka.MKV" type="video/mkv">
+          <source src="resources/video/Human Library Dhaka.MKV" type="video/mp4">
         </video>
 
         <!-- Overlay text to describe the video -->
@@ -103,19 +104,19 @@
       </div>
       
       <!--WORK FLOW DIV for LARGE SCREEN-->
-      <div class="d-md-block d-none">
-        <div class="col-md-8 offset-md-2 col-12 text-center content-div">
-          <h1 class="content-div">How does it work?</h1>
+      <div class="d-md-block d-none text-center content-div">
+        <div class="col-md-8 offset-md-2 col-12">
+          <h3 class="title">How does it work?</h3>
           <div class="col-4 border border-dark border-top-0 border-right-0">
-            <h5>STEP ONE</h5>
+            <h5 class="hld-color">STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
           <div class="col-4 offset-4 border border-dark border-top-0 border-right-0">
-            <h5>STEP TWO</h5>
+            <h5 class="hld-color">STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
           <div class="col-4 offset-8 border border-dark border-top-0 border-right-0">
-            <h5>STEP THREE</h5>
+            <h5 class="hld-color">STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
         </div>
@@ -125,19 +126,19 @@
       </div>
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
-      <div class="d-md-none d-block content-div">
-        <div class="col-md-8 offset-md-2 col-12 text-center">
+      <div class="d-md-none d-block text-center content-div">
+        <div class="col-md-8 offset-md-2 col-12">
           <h1 class="content-div">How does it work?</h1>
           <div class="col-12 border border-dark border-right-0 border-top-0">
-            <h5>STEP ONE</h5>
+            <h5 class="hld-color">STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
           <div class="col-12 border border-dark border-left-0 border-top-0">
-            <h5>STEP TWO</h5>
+            <h5 class="hld-color">STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
           <div class="col-12 border border-dark border-top-0 border-right-0">
-            <h5>STEP THREE</h5>
+            <h5 class="hld-color">STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
         </div>
@@ -171,7 +172,7 @@
       </div>
 
       <!--Courasel-->
-      <div id="carouselExampleIndicators" class="carousel carousel-fade col-8 offset-2" data-ride="carousel" data-interval="2000" data-pause="false" style="height:70% !important; overflow: hidden !important;">
+      <div id="carouselExampleIndicators" class="carousel carousel-fade col-8 offset-2" data-ride="carousel" data-interval="2000" data-pause="false" style="height: 70vh; overflow: hidden !important;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -203,39 +204,39 @@
       </div>
 
       <!-- JOURNEY SO FAR -->
-      <div class="bg-gray content-div">
-        <div class="text-center col-md-8 offset-md-2 col-12">
-          <h1 class="content-div">Journey so far</h3>
+      <div class="bg-alt content-div text-center">
+        <div class="col-md-8 offset-md-2 col-12">
+          <h3 class="title">Journey so far</h3>
           <div class="row">
             <div class="col-md col-12 count">
               <i class="fas fa-book"></i>
               <h3 class="count-header">50</h3>
-              <p class="count-caption">Books</p>
+              <p class="hld-color">Books</p>
             </div>
             <div class="col-md col-12 count">
               <i class="fas fa-glasses"></i>
               <h3 class="count-header">100</h3>
-              <p class="count-caption">Readers</p>
+              <p class="hld-color">Readers</p>
             </div>
             <div class="col-md col-12 count">
               <i class="fas fa-clipboard-check"></i>
               <h3 class="count-header">04</h3>
-              <p class="count-caption">Sessions</p>
+              <p class="hld-color">Sessions</p>
             </div>
           </div>
         </div>
       </div>
 
       <!--Get Involved DIV-->
-      <div>
-        <div class="col-md-8 offset-md-2 col-12 content-div">
-          <h3 class="text-center content-div">Get involved</h3>
+      <div class="">
+        <div class="col-md-8 offset-md-2 col-12 text-center content-div">
+          <h3 class="title">Get involved</h3>
           <div class="row text-center">
             <div class="col-md-6 col-12">
               <div class="figure">
                 <img src="resources/images/be_a_b.jpg" class="img-fluid rounded shadow-light" alt="Become a book in Human Library Bangladesh">
                 <h4 class="figure-caption">
-                  <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A BOOK</a>
+                  <a href="http://bit.ly/2ws01TI" class="btn btn-reg">BE A BOOK</a>
                 </h4>
               </div>
             </div>
@@ -243,7 +244,7 @@
                 <div class="figure">
                   <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded shadow-light" alt="Become a volunteer in Human Library Bangladesh">
                   <h4 class="figure-caption">
-                    <a href="http://bit.ly/2ws01TI" class="btn btn-member">BE A VOLUNTEER</a>
+                    <a href="http://bit.ly/2ws01TI" class="btn btn-reg">BE A VOLUNTEER</a>
                   </h4>
                 </div>
             </div>
@@ -252,17 +253,38 @@
       </div>
 
       <!--Contact-->
-      <div class="text-center bg-gray">  
-        <div class="col-md-6 offset-md-3 col-12 content-div">
-          <h3 class="">Contact us</h3>
-          <div class="content-div">
-            <a href="#"><i class="fab fa-facebook-f fb-icon"></i></a>
+      <div class="bg-alt text-center content-div">  
+        <div class="col-12">
+          <h3 class="title">Contact us</h3>
+          <div class="row">
+            <div class="col-md col-12">
+              <h1 class="contact-icon"><i class="fab fa-facebook-f"></i></h1>
+              <h6>facebook/human library bd</h6>
+            </div>
+            <div>
+              <h1 class="contact-icon"><i class="fas fa-phone"></i></h1>
+              <h6 class="col-md col-12">+8801723880554</h6>
+            </div>
+            <div class="col-md col-12">
+              <h1 class="contact-icon"><i class="far fa-envelope"></i></h1>
+              <h6 class="">humanlibrarydhaka@gmail.com</h6>
+            </div>
           </div>
-          <h6 class="w-100">Phone +8801723880554</h6>
-          <h6 class="col-12">Email humanlibrarydhaka@gmail.com</h6>
         </div>
       </div>
+
     </div> 
+
+    <script>
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (currentScrollPos<=80) {
+          document.getElementById("navbar").classList.remove("fixed-top");
+        } else {
+          document.getElementById("navbar").classList.add("fixed-top");
+        }
+      }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
