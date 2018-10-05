@@ -1,6 +1,3 @@
-<?php
-  include 'consts.php';
-?>
 <!doctype html>
 <html lang="en" class="h-100">
   <head>
@@ -30,10 +27,6 @@
   </head>
   <body class="h-100">
     <div class="h-100">
-      <!-- <div class="bg-light text-center" id="nav-image">
-        <img src=<?php echo HL_LOGO;?> width="128" height="128" style="margin: 10px;" class="d-inline-block align-bottom" alt="">
-      </div> -->
-
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-dark bg-nav" id="navbar">
           <div class="container">
@@ -117,15 +110,15 @@
       <div class="d-md-block d-none text-center content-div bg-alt">
         <div class="col-md-8 offset-md-2 col-12">
           <h3 class="title">How does it work?</h3>
-          <div class="col-4 border border-dark border-top-0 border-right-0">
+          <div class="col-4 step-lg">
             <h5 class="hld-color">STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
-          <div class="col-4 offset-4 border border-dark border-top-0 border-right-0">
+          <div class="col-4 offset-4 step-lg">
             <h5 class="hld-color">STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
-          <div class="col-4 offset-8 border border-dark border-top-0 border-right-0">
+          <div class="col-4 offset-8 step-lg">
             <h5 class="hld-color">STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
@@ -139,15 +132,15 @@
       <div class="d-md-none d-block text-center content-div bg-alt">
         <div class="col-md-8 offset-md-2 col-12">
           <h1 class="content-div">How does it work?</h1>
-          <div class="col-12 border border-dark border-right-0 border-top-0">
+          <div class="col-12 step-one-sm">
             <h5 class="hld-color">STEP ONE</h5>
             <p>Select the Human Books to be loaned</p>
           </div>
-          <div class="col-12 border border-dark border-left-0 border-top-0">
+          <div class="col-12 step-two-sm">
             <h5 class="hld-color">STEP TWO</h5>
             <p>Receive your library card with your scheduled readings</p>
           </div>
-          <div class="col-12 border border-dark border-top-0 border-right-0">
+          <div class="col-12 step-three-sm">
             <h5 class="hld-color">STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
@@ -271,13 +264,13 @@
               <h1 class="contact-icon"><i class="fab fa-facebook-f"></i></h1>
               <h6>facebook/human library bd</h6>
             </div>
-            <div>
+            <div class="col-md col-12">
               <h1 class="contact-icon"><i class="fas fa-phone"></i></h1>
-              <h6 class="col-md col-12">+8801723880554</h6>
+              <h6>+8801723880554</h6>
             </div>
             <div class="col-md col-12">
               <h1 class="contact-icon"><i class="far fa-envelope"></i></h1>
-              <h6 class="">humanlibrarydhaka@gmail.com</h6>
+              <h6>humanlibrarydhaka@gmail.com</h6>
             </div>
           </div>
         </div>

@@ -27,6 +27,7 @@ p{
 
 .bg-nav{
 	background-color: #004D40;
+	box-shadow: 0px 5px 5px #777;
 }
 
 .bg-main{}
@@ -140,4 +141,32 @@ p{
 .contact-icon{
 	/*font-size: 100px;*/
 	font-weight: bold;
+}
+
+.step-lg{
+	min-height: 100px;
+	border: 1px solid var(--theme-color);
+	border-top: none;
+	border-right: none;
+}
+
+.step-one-sm{
+	min-height: 100px;
+	border: 1px solid var(--theme-color);
+	/*border-right: none;	*/
+	border-radius: 50px;
+}
+
+.step-two-sm{
+	min-height: 100px;
+	border: 1px solid var(--theme-color);
+	border-top: none;	
+	border-radius: 50px;
+}
+
+.step-three-sm{
+	min-height: 100px;
+	border: 1px solid var(--theme-color);
+	border-top: none;	
+	border-radius: 50px;
 }
