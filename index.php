@@ -60,7 +60,7 @@
       </nav>
 
       <!--ABOUT HUMAN LIBRARY-->
-      <div class="hl-div text-center bg-alt">
+      <div class="hl-div text-center">
         <div class="col-md-6 offset-md-3 col-12">
           <img class="img-fluid" src="resources/images/hld_banner.png">&nbsp;
           <h3 class="title">About Human Library Dhaka</h3>
@@ -82,30 +82,15 @@
           <h1><i class="fas fa-angle-double-down text-dark"></i></h1>
         </div> -->
       </div>
-
-      <!-- VIDEO FORM SERVER-->
-      <div class="d-none">
-        <!-- The video -->
-        <video autoplay muted loop id="myVideo">
-          <source src="resources/video/Human Library Dhaka.MKV" type="video/mp4">
-        </video>
-
-        <!-- Overlay text to describe the video -->
-        <div class="content">
-          <h1>Heading</h1>
-          <p>Lorem ipsum...</p>
-          <!-- Use a button to pause/play the video with JavaScript -->
-          <button id="myBtn" onclick="myFunction()">Pause</button>
-        </div>
-      </div>
-
-      <!-- VIDEO FROM YOUTUBE -->
-      <div class="text-center content-div">
-        <div class="col-md-8 offset-md-2 col-12">
-           <iframe width="100%" height="325" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0"></iframe> 
-        </div>
-      </div>
       
+      <!-- VIDEO FROM YOUTUBE -->
+      <div class="">
+        <div class="embed-responsive embed-responsive-16by9">
+           <!-- <iframe width="100%" height="325" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0"></iframe> -->
+           <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+
       <!--WORK FLOW DIV for LARGE SCREEN-->
       <div class="d-md-block d-none text-center content-div bg-alt">
         <div class="col-md-8 offset-md-2 col-12">
@@ -175,40 +160,41 @@
       </div>
 
       <!--Courasel-->
-      <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel" data-interval="2000" data-pause="false" style="height: 60%; overflow: hidden !important;">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="resources/images/1.jpg" alt="">
+      <div class="col-8 offset-2 d-md-block d-sm-none">
+        <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel" data-interval="2000" data-pause="false" style="height: 60%; overflow: hidden !important;">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="resources/images/1.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="resources/images/2.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="resources/images/3.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="resources/images/4.jpg" alt="">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/2.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/3.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="resources/images/4.jpg" alt="">
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-
       <!--Get Involved DIV-->
-      <div class="">
-        <div class="col-md-8 offset-md-2 col-12 text-center content-div bg-alt">
+      <div class="bg-alt text-center content-div">
+        <div class="col-md-8 offset-md-2 col-12">
           <h3 class="title">Get involved</h3>
           <div class="row text-center">
             <div class="col-md-6 col-12">
@@ -270,7 +256,7 @@
             </div>
             <div class="col-md col-12">
               <h1 class="contact-icon"><i class="far fa-envelope"></i></h1>
-              <h6>humanlibrarydhaka@gmail.com</h6>
+              <h6>info@humanlibrarybd.org</h6>
             </div>
           </div>
         </div>
