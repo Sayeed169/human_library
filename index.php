@@ -27,13 +27,17 @@
   </head>
   <body class="h-100">
     <div class="h-100">
+
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-nav" id="navbar">
+      <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
           <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-md-center" id="navbar1">
+              <div class="navbar-band col-3">
+                <a href="#"><img src="resources/images/hld_banner.png" style="width:75%"></a>
+              </div>
+              <div class="collapse navbar-collapse justify-content-md-end" id="navbar1">
                 <ul class="navbar-nav">
                     <!-- <li class="nav-item nav-item-padding">
                         <div class="dropdown">
@@ -71,23 +75,14 @@
           <h3 class="title">Why visit us?</h3>
           <p class="text-justify">
             You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
-          </p>
-          
-          <!-- <div>
-            <a href="#"><i class="fab fa-facebook-f fb-icon"></i></a>
-          </div> -->
-            
+          </p>        
         </div>
-        <!-- <div class="text-center">
-          <h1><i class="fas fa-angle-double-down text-dark"></i></h1>
-        </div> -->
       </div>
       
       <!-- VIDEO FROM YOUTUBE -->
       <div class="">
         <div class="embed-responsive embed-responsive-16by9">
-           <!-- <iframe width="100%" height="325" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0"></iframe> -->
-           <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
 
@@ -269,8 +264,12 @@
         var currentScrollPos = window.pageYOffset;
         if (currentScrollPos<=80) {
           document.getElementById("navbar").classList.remove("fixed-top");
+          document.getElementById("navbar").classList.remove("navbar-light");
+          document.getElementById("navbar").classList.remove("bg-nav");
         } else {
           document.getElementById("navbar").classList.add("fixed-top");
+          document.getElementById("navbar").classList.add("navbar-light");
+          document.getElementById("navbar").classList.add("bg-nav");
         }
       }
     </script>
