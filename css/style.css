@@ -52,15 +52,14 @@ p{
 	background-repeat: none;
 	background-position: center;
 	background-size: cover;
-
 }
 
 .shadow-light{
-	box-shadow: 0px 0px 5px 0px;
+	box-shadow: 0px -1px 5px #555;
 }
 
 .shadow-dark{
-	box-shadow: 0px 0px 5px 0px;
+	box-shadow: 0px -1px 5px #555;
 }
 
 .figure{
@@ -72,6 +71,17 @@ p{
 	max-height: 250px;
 	max-width: 100%;
 	min-width: 100%;
+}
+
+.figure-slider{
+	/*width: 100%;*/
+	/*max-height: 60%;
+	min-height: 60%;*/
+	overflow: hidden !important;
+}
+
+.div-rounded{
+	border-radius: 5px;
 }
 
 .fb-icon{

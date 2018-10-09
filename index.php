@@ -53,7 +53,7 @@
                         <a class="nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="join">
-                        <a class="nav-link" href="#">JOIN THE OUR FAMILY</a>
+                        <a class="nav-link" href="#">JOIN HL FAMILY</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="contact">
                         <a class="nav-link" href="#">CONTACT</a>
@@ -80,7 +80,7 @@
       </div>
       
       <!-- VIDEO FROM YOUTUBE -->
-      <div class="">
+      <div class="col-md-8 offset-md-2 col-12">
         <div class="embed-responsive embed-responsive-16by9">
            <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
@@ -103,9 +103,9 @@
             <p>Attend your reading sessions</p>
           </div>
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
           <img class="img-fluid" src="https://static.wixstatic.com/media/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.png/v1/crop/x_0,y_15,w_1054,h_836/fill/w_621,h_493,al_c,q_80,usm_0.66_1.00_0.01/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.webp">
-        </div>
+        </div> -->
       </div>
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
@@ -125,9 +125,9 @@
             <p>Attend your reading sessions</p>
           </div>
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
           <img class="img-fluid" src="https://static.wixstatic.com/media/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.png/v1/crop/x_0,y_15,w_1054,h_836/fill/w_621,h_493,al_c,q_80,usm_0.66_1.00_0.01/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.webp">
-        </div>
+        </div> -->
       </div>
 
       <!--SUBSCRIBE-->
@@ -155,8 +155,8 @@
       </div>
 
       <!--Courasel-->
-      <div class="col-8 offset-2 d-md-block d-sm-none">
-        <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel" data-interval="2000" data-pause="false" style="height: 60%; overflow: hidden !important;">
+      <!-- <div class="col-8 offset-2 d-md-block d-sm-none">
+        <div id="carouselExampleIndicators" class="carousel carousel-fade figure-slider" data-ride="carousel" data-interval="2000" data-pause="false">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -186,7 +186,8 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div> -->
+
       <!--Get Involved DIV-->
       <div class="bg-alt text-center content-div">
         <div class="col-md-8 offset-md-2 col-12">
@@ -194,7 +195,25 @@
           <div class="row text-center">
             <div class="col-md-6 col-12">
               <div class="figure">
-                <img src="resources/images/be_a_b.jpg" class="img-fluid rounded shadow-light" alt="Become a book in Human Library Bangladesh">
+                <!-- <img src="resources/images/be_a_b.jpg" class="img-fluid rounded shadow-light" alt="Become a book in Human Library Bangladesh"> -->
+                <!-- slider start -->
+                <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2000" data-pause="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="resources/images/1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="resources/images/2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="resources/images/3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="resources/images/4.jpg" alt="Fourth slide">
+                    </div>
+                  </div>
+                </div>
+                <!-- slider ends -->
                 <h4 class="figure-caption">
                   <a href="http://bit.ly/2ws01TI" class="btn btn-reg">BE A BOOK</a>
                 </h4>
@@ -202,7 +221,25 @@
             </div>
             <div class="col-md-6 col-12">
                 <div class="figure">
-                  <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded shadow-light" alt="Become a volunteer in Human Library Bangladesh">
+                  <!-- <img src="resources/images/be_a_v2.jpg" class="img-fluid rounded shadow-light" alt="Become a volunteer in Human Library Bangladesh"> -->
+                  <!-- slider starts -->
+                  <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2000" data-pause="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="resources/images/1.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="resources/images/2.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="resources/images/3.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="resources/images/4.jpg" alt="Fourth slide">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slider ends -->
                   <h4 class="figure-caption">
                     <a href="http://bit.ly/2ws01TI" class="btn btn-reg">BE A VOLUNTEER</a>
                   </h4>
@@ -236,6 +273,33 @@
         </div>
       </div>
 
+      <!-- PARTNER DIV -->
+      <div class="content-div text-center">
+        <div class="col-md-8 offset-md-2 col-12">
+          <h3 class="title h3">Our previous partners</h3>
+          <div class="row">
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+            <div class="col-md-4 col-4">
+              <img src="resources/images/1.1.jpg" class="img img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!--Contact-->
       <div class="bg-dark text-light text-center content-div">  
         <div class="col-12">
@@ -243,7 +307,7 @@
           <div class="row">
             <div class="col-md col-12">
               <h1 class="contact-icon"><i class="fab fa-facebook-f"></i></h1>
-              <h6>facebook/human library bd</h6>
+              <h6>facebook/humanlibrarydhaka</h6>
             </div>
             <div class="col-md col-12">
               <h1 class="contact-icon"><i class="fas fa-phone"></i></h1>
