@@ -87,7 +87,7 @@
       <div class="">
         <div class="embed-responsive embed-responsive-16by9">
            <!-- <iframe width="100%" height="325" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0"></iframe> -->
-           <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           <iframe src="https://www.youtube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
 
