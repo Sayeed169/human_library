@@ -26,7 +26,7 @@
 
   </head>
   <body class="h-100">
-    <div class="h-100">
+    <div class="hl-div h-100">
 
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
@@ -35,7 +35,7 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-3">
-                <a href="#"><img src="resources/images/hld_banner.png" style="width:75%"></a>
+                <a href="#"><img src="resources/images/hld_banner.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-end" id="navbar1">
                 <ul class="navbar-nav">
@@ -64,9 +64,8 @@
       </nav>
 
       <!--ABOUT HUMAN LIBRARY-->
-      <div class="hl-div text-center">
+      <div class="d-flex h-100 text-center">
         <div class="col-md-6 offset-md-3 col-12">
-          <img class="img-fluid" src="resources/images/hld_banner.png">&nbsp;
           <h3 class="title">About Human Library Dhaka</h3>
           <p class="text-justify">
             Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
@@ -78,7 +77,7 @@
           </p>        
         </div>
       </div>
-      
+    </div>  
       <!-- VIDEO FROM YOUTUBE -->
       <div class="col-md-8 offset-md-2 col-12">
         <div class="embed-responsive embed-responsive-16by9">
@@ -87,8 +86,9 @@
       </div>
 
       <!--WORK FLOW DIV for LARGE SCREEN-->
-      <div class="d-md-block d-none text-center content-div bg-alt">
-        <div class="col-md-8 offset-md-2 col-12">
+      <div class="d-md-block d-none text-center bg-alt h-100">
+        <div class="d-flex h-100">
+          <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">How does it work?</h3>
           <div class="col-4 step-lg">
             <h5 class="hld-color">STEP ONE</h5>
@@ -102,7 +102,8 @@
             <h5 class="hld-color">STEP THREE</h5>
             <p>Attend your reading sessions</p>
           </div>
-        </div>
+          </div>
+        </div>  
         <!-- <div class="text-center">
           <img class="img-fluid" src="https://static.wixstatic.com/media/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.png/v1/crop/x_0,y_15,w_1054,h_836/fill/w_621,h_493,al_c,q_80,usm_0.66_1.00_0.01/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.webp">
         </div> -->
@@ -189,8 +190,8 @@
       </div> -->
 
       <!--Get Involved DIV-->
-      <div class="bg-alt text-center content-div">
-        <div class="col-md-8 offset-md-2 col-12">
+      <div class="text-center d-flex h-100">
+        <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">Get involved</h3>
           <div class="row text-center">
             <div class="col-md-6 col-12">
@@ -250,8 +251,8 @@
       </div>
 
       <!-- JOURNEY SO FAR -->
-      <div class="content-div text-center">
-        <div class="col-md-8 offset-md-2 col-12">
+      <div class="text-center d-flex h-100 bg-alt">
+        <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">Journey so far</h3>
           <div class="row">
             <div class="col-md col-12 count">
@@ -274,27 +275,35 @@
       </div>
 
       <!-- PARTNER DIV -->
-      <div class="content-div text-center">
-        <div class="col-md-8 offset-md-2 col-12">
-          <h3 class="title h3">Our previous partners</h3>
-          <div class="row">
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
-            </div>
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
-            </div>
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
-            </div>
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
-            </div>
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
-            </div>
-            <div class="col-md-4 col-4">
-              <img src="resources/images/1.1.jpg" class="img img-fluid">
+      <div class="container text-center d-flex h-100">
+        <div class="row align-self-center">
+          <div class="col-md-8 offset-md-2 col-12 mx-auto">
+            <h3 class="title text-center">Our previous partners</h3>
+            <div class="row">
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/garb.jpg" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/sb.png" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/zb.png" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/EMK.jpg" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/tmcb.png" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/bc.jpg" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/ulab.jpg" class="img img-fluid">
+              </div>
+              <div class="col-md-3 col-4 logo-div vertical">
+                <img src="resources/logo/psb.png" class="img img-fluid align-middle">
+              </div>
             </div>
           </div>
         </div>
@@ -328,11 +337,11 @@
         var currentScrollPos = window.pageYOffset;
         if (currentScrollPos<=80) {
           document.getElementById("navbar").classList.remove("fixed-top");
-          document.getElementById("navbar").classList.remove("navbar-light");
+          // document.getElementById("navbar").classList.remove("navbar-light");
           document.getElementById("navbar").classList.remove("bg-nav");
         } else {
           document.getElementById("navbar").classList.add("fixed-top");
-          document.getElementById("navbar").classList.add("navbar-light");
+          // document.getElementById("navbar").classList.add("navbar-light");
           document.getElementById("navbar").classList.add("bg-nav");
         }
       }
