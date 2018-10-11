@@ -35,7 +35,7 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-3">
-                <a href="#"><img src="resources/images/hld_banner.png" class="img img-fluid"></a>
+                <a href="index.php"><img src="resources/images/hld_banner.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-end" id="navbar1">
                 <ul class="navbar-nav">
@@ -50,10 +50,10 @@
                         </div>
                     </li> -->
                     <li class="nav-item nav-item-padding">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="join">
-                        <a class="nav-link" href="#">JOIN HL FAMILY</a>
+                        <a class="nav-link" href="join_hl.php">JOIN THE HL FAMILY</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="contact">
                         <a class="nav-link" href="#">CONTACT</a>
