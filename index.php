@@ -33,7 +33,7 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-3 d-md-none d-block">
-                <a href="index.php"><img src="resources/images/hld_banner.png" class="img img-fluid"></a>
+                <a href="#"><img src="images/hld_logo.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-center" id="navbar1">
                 <ul class="navbar-nav">
@@ -41,8 +41,8 @@
                         <div class="dropdown">
                           <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#how_it_works">HOW IT WORKS?</a>
-                            <a class="dropdown-item" href="#get_updates">GET UPDATES</a>
+                            <a class="dropdown-item d-md-block d-none" href="#how_it_works_l">HOW IT WORKS?</a>
+                            <a class="dropdown-item d-md-none d-block" href="#how_it_works_s">HOW IT WORKS?</a>
                             <a class="dropdown-item" href="#get_involved">GET INVOLVED</a>
                           </div>
                         </div>
@@ -59,24 +59,24 @@
       </nav>
 
       <!--ABOUT HUMAN LIBRARY-->
-      <div class="hl-div h-100">  
+      <div class="hl-div">  
         <div class="d-flex h-100 text-center">
-        <div class="col-md-6 offset-md-3 col-12">
-          <h3 class="title">About Human Library Dhaka</h3>
-          <p class="text-justify">
-            Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
-          </p>
-          
-          <h3 class="title">Why visit us?</h3>
-          <p class="text-justify">
-            You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
-          </p>        
-        </div>
+          <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 50px 50px 50px 50px;">
+            <h3 class="title">About Human Library Dhaka</h3>
+            <p class="text-justify">
+              Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
+            </p>
+            
+            <h3 class="title">Why visit us?</h3>
+            <p class="text-justify">
+              You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
+            </p>        
+          </div>
         </div>
       </div>
 
       <!--WORK FLOW DIV for LARGE SCREEN-->
-      <div class="d-md-block d-none text-center bg-alt h-100" id="how_it_works">
+      <div class="d-md-block d-none text-center bg-alt h-100" id="how_it_works_l">
         <div class="d-flex h-100">
           <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">How does it work?</h3>
@@ -100,7 +100,7 @@
       </div>
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
-      <div class="d-md-none d-block text-center content-div bg-alt" id="how_it_works">
+      <div class="d-md-none d-block text-center content-div bg-alt" id="how_it_works_s">
         <div class="col-md-8 offset-md-2 col-12">
           <h1 class="title">How does it work?</h1>
           <div class="col-12 step-one-sm">
@@ -118,15 +118,17 @@
         </div>
       </div>
 
-      <!-- VIDEO FROM YOUTUBE -->
+      <!-- VIDEO -->
       <div class="col-md-8 offset-md-2 col-12">
-        <div class="embed-responsive embed-responsive-16by9">
-           <iframe src="https://www.outube.com/embed/N_uE-6ho7SI?autoplay=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
+        <video width="100%" controls loop autoplay>
+          <source src="video/HLD.mp4" type="video/mp4">
+          <source src="mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>      
 
       <!--SUBSCRIBE-->
-      <div class="d-none content-div">  
+      <!-- <div class="content-div">  
         <div class="col-md-6 offset-md-3 col-12 content-div">
           <h3 class="text-center">Join our mailing list!</h3>
           <p class="text-center">Receive the latest updates about our upcoming events!</p>
@@ -147,10 +149,10 @@
             <button type="subscribe" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
-      </div>
+      </div> -->
 
       <!--Get Involved DIV-->
-      <div class="text-center d-flex" id="get_involved">
+      <div class="text-center d-flex h-100 content-div" id="get_involved">
         <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">Get involved</h3>
           <div class="row text-center">
@@ -184,7 +186,7 @@
             </div>
             <div class="col-md-6 col-12">
                 <div class="figure">
-                  <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2500" data-pause="false">
+                  <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2223" data-pause="false">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src="images/volunteer/1.jpg" alt="First slide">
@@ -285,7 +287,7 @@
       </div>
 
       <!--Contact-->
-      <div class="bg-dark text-light text-center content-div" id="contact_us">  
+      <!-- <div class="bg-dark text-light text-center content-div" id="contact_us">  
         <div class="col-12">
           <h3 class="title" style="color: #fff;">Contact us</h3>
           <div class="row">
@@ -303,14 +305,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div> 
 
     <script>
       window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (currentScrollPos<=80) {
+        if (currentScrollPos<=120) {
           document.getElementById("navbar").classList.remove("fixed-top");
         } else {
           document.getElementById("navbar").classList.add("fixed-top");
