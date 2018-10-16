@@ -25,7 +25,7 @@
     <title>Human Library Bangladesh</title>
 
   </head>
-  <body class="h-100">
+  <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="80">
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-light bg-nav" id="navbar">
           <div class="container">
@@ -59,7 +59,7 @@
       </nav>
 
       <!--ABOUT HUMAN LIBRARY-->
-      <div class="hl-div">  
+      <div class="hl-div" id="about_us">  
         <div class="d-flex h-100 text-center">
           <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 50px 50px 50px 50px;">
             <h3 class="title">About Human Library Dhaka</h3>
@@ -120,7 +120,7 @@
 
       <!-- VIDEO -->
       <div class="col-md-8 offset-md-2 col-12">
-        <video width="100%" controls loop autoplay>
+        <video width="100%" controls loop autoplay class="video">
           <source src="video/HLD.mp4" type="video/mp4">
           <source src="mov_bbb.ogg" type="video/ogg">
           Your browser does not support HTML5 video.
