@@ -210,7 +210,8 @@
       </div>
 
       <!--Courasel-->
-      <div class="col-md-8 offset-md-2 col-12">
+      <div class="content-div">
+        <div class="col-md-8 offset-md-2 col-12">
         <div id="carouselExampleIndicators" class="carousel slide figure-slider" data-ride="carousel" data-interval="2000" data-pause="false">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -245,8 +246,8 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
-
+        </div>
+      <div>  
       <!-- PARTNER DIV -->
       <div class="container text-center d-flex h-100  ">
         <div class="row align-self-center">
