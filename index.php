@@ -76,7 +76,7 @@
       </div>
 
       <!--WORK FLOW DIV for LARGE SCREEN-->
-      <div class="d-md-block d-none text-center bg-alt h-100" id="how_it_works_l">
+      <div class="d-md-block d-none text-center h-100" id="how_it_works_l">
         <div class="d-flex h-100">
           <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">How does it work?</h3>
@@ -93,14 +93,11 @@
             <p>Attend your reading sessions</p>
           </div>
           </div>
-        </div>  
-        <!-- <div class="text-center">
-          <img class="img-fluid" src="https://static.wixstatic.com/media/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.png/v1/crop/x_0,y_15,w_1054,h_836/fill/w_621,h_493,al_c,q_80,usm_0.66_1.00_0.01/f85b89_9d5c764e315f4312a6c4c4db7a67c950~mv2.webp">
-        </div> -->
+        </div>
       </div>
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
-      <div class="d-md-none d-block text-center content-div bg-alt" id="how_it_works_s">
+      <div class="d-md-none d-block text-center content-div" id="how_it_works_s">
         <div class="col-md-8 offset-md-2 col-12">
           <h1 class="title">How does it work?</h1>
           <div class="col-12 step-one-sm">
@@ -125,31 +122,7 @@
           <source src="mov_bbb.ogg" type="video/ogg">
           Your browser does not support HTML5 video.
         </video>
-      </div>      
-
-      <!--SUBSCRIBE-->
-      <!-- <div class="content-div">  
-        <div class="col-md-6 offset-md-3 col-12 content-div">
-          <h3 class="text-center">Join our mailing list!</h3>
-          <p class="text-center">Receive the latest updates about our upcoming events!</p>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address<i class="text-danger"> *</i></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="true">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputFirstName1">First Name</label>
-              <input type="text" class="form-control" id="exampleInputFirstName1">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputLastName1">Last Name</label>
-              <input type="text" class="form-control" id="exampleInputLastName1">
-            </div>
-            <button type="subscribe" class="btn btn-primary">Subscribe</button>
-          </form>
-        </div>
-      </div> -->
+      </div>
 
       <!--Get Involved DIV-->
       <div class="text-center d-flex h-100 content-div" id="get_involved">
@@ -247,7 +220,48 @@
           </a>
         </div>
         </div>
-      <div>  
+      <div>
+
+      <!--Contact us-->
+      <div class="content-div">  
+        <div class="col-md-8 offset-md-2 col-12">
+          <h3 class="text-center">Contact us</h3>
+          <div class="row text-center">
+            <div class="col-md col-12" style="padding-top: 50px;">
+              <h6>Call Us</h6>
+              <div class="contact-logo" style="background-color: cadetblue;">
+                <i class="fas fa-phone"></i> +8801836537815
+              </div>  
+            </div>
+            <div class="col-md col-12" style="padding-top: 50px; padding-bottom: 50px;">
+              <h6>Visit our facbook page</h6>
+              <div class="contact-logo" style="background-color: #3B5998;">
+                <i class="fab fa-facebook-f"></i> /humanlibrarydhaka
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <p class="text-center">Send us your feedback!</p>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFullName">Full Name<i class="text-danger">*</i></label>
+                <input type="email" class="form-control" id="exampleInputFullName" required="true">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="subscribe" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <!-- PARTNER DIV -->
       <div class="container text-center d-flex h-100  ">
         <div class="row align-self-center">
@@ -286,27 +300,6 @@
           </div>
         </div>
       </div>
-
-      <!--Contact-->
-      <!-- <div class="bg-dark text-light text-center content-div" id="contact_us">  
-        <div class="col-12">
-          <h3 class="title" style="color: #fff;">Contact us</h3>
-          <div class="row">
-            <div class="col-md col-12">
-              <h1 class="contact-icon"><i class="fab fa-facebook-f"></i></h1>
-              <h6>facebook/humanlibrarydhaka</h6>
-            </div>
-            <div class="col-md col-12">
-              <h1 class="contact-icon"><i class="fas fa-phone"></i></h1>
-              <h6>+8801723880554</h6>
-            </div>
-            <div class="col-md col-12">
-              <h1 class="contact-icon"><i class="far fa-envelope"></i></h1>
-              <h6>info@humanlibrarybd.org</h6>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
     </div> 
 

@@ -96,17 +96,6 @@ p{
 	font-weight: bold;
 }
 
-/*.figure{
-	display: inline-block;
-}
-
-.figure > img{
-	min-height: 250px;
-	max-height: 250px;
-	max-width: 100%;
-	min-width: 100%;
-}*/
-
 .figure-slider{
 	overflow: hidden !important;
 }
@@ -117,24 +106,17 @@ p{
 	min-height: 34vh;
 }
 
-.fb-icon{
-	height: 50px;
-    width: 50px;
-    background-color: #3F51B5;
-    border-radius: 50%;
-    margin: auto;
-    padding: 12px;
-    font-size: 25px;
-    box-shadow: 0px 0px 10px 1px #6c757d;
-    transition: all 1s;
-}
-.fb-icon:hover{
-	background-color: white;
-	box-shadow: 0px 0px 10px 5px #6c757d;
-}
 .content-div{
 	padding: 50px 10px 50px 10px;
 	/*background-color: lightgreen;*/
+}
+
+.contact-logo{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 50px;
 }
 
 .btn-reg{
@@ -168,11 +150,6 @@ p{
 .video{
 	border: 5px solid var(--theme-color);
 	border-radius: 5px;
-}
-
-.contact-icon{
-	/*font-size: 100px;*/
-	font-weight: bold;
 }
 
 .step-lg{
