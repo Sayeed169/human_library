@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#">JOIN HL BD FAMILY</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="contact">
-                        <a class="nav-link" href="#contact_us">CONTACT</a>
+                        <a class="nav-link" href="index.php#contact_us">CONTACT</a>
                     </li>
                 </ul>
               </div>

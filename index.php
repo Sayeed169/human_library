@@ -116,7 +116,7 @@
       </div>
 
       <!-- VIDEO -->
-      <div class="col-md-8 offset-md-2 col-12">
+      <div class="col-md-8 offset-md-2 col-12" id="hld_video">
         <video width="100%" controls loop autoplay class="video">
           <source src="video/HLD.mp4" type="video/mp4">
           <source src="mov_bbb.ogg" type="video/ogg">
@@ -193,11 +193,11 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
-          <div class="carousel-inner" style="max-height: 65vh; min-height: 65vh;">
+          <div class="carousel-inner" style="max-height: 200px; min-height: 200px;">
             <div class="carousel-item active">
               <img class="d-block w-100" src="images/images/1.jpg" alt="">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item div-rounded">
               <img class="d-block w-100" src="images/images/2.jpg" alt="">
             </div>
             <div class="carousel-item">
@@ -223,17 +223,17 @@
       <div>
 
       <!--Contact us-->
-      <div class="content-div">  
+      <div class="content-div" id="contact_us">  
         <div class="col-md-8 offset-md-2 col-12">
-          <h3 class="text-center">Contact us</h3>
+          <h3 class="title text-center">Contact us</h3>
           <div class="row text-center">
-            <div class="col-md col-12" style="padding-top: 50px;">
+            <div class="col-md col-12" style="padding-top: 25px;">
               <h6>Call Us</h6>
               <div class="contact-logo" style="background-color: cadetblue;">
                 <i class="fas fa-phone"></i> +8801836537815
               </div>  
             </div>
-            <div class="col-md col-12" style="padding-top: 50px; padding-bottom: 50px;">
+            <div class="col-md col-12" style="padding-top: 25px; padding-bottom: 50px;">
               <h6>Visit our facbook page</h6>
               <div class="contact-logo" style="background-color: #3B5998;">
                 <i class="fab fa-facebook-f"></i> /humanlibrarydhaka
@@ -263,7 +263,7 @@
       </div>
 
       <!-- PARTNER DIV -->
-      <div class="container text-center d-flex h-100  ">
+      <div class="container text-center d-flex h-100" id="partners">
         <div class="row align-self-center">
           <div class="col-md-8 offset-md-2 col-12 mx-auto">
             <h3 class="title text-center">Our previous partners</h3>
