@@ -29,7 +29,7 @@
     <div class="h-100">
 
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-nav" id="navbar">
+      <nav class="navbar navbar-expand-sm navbar-light bg-nav sticky-top" id="navbar">
           <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
                     <li class="nav-item nav-item-padding" id="join">
                         <a class="nav-link" href="index.php">HOME</a>
                     </li>
-                    <li class="nav-item nav-item-padding" id="join">
+                    <li class="nav-item nav-item-padding active" id="join">
                         <a class="nav-link" href="#">JOIN HL BD FAMILY</a>
                     </li>
                     <li class="nav-item nav-item-padding" id="contact">
@@ -58,7 +58,7 @@
         <div class="row text-center">
           <div class="col-md col-12">
             <div class="card card-shadow">
-              <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider div-rounded" data-ride="carousel" data-interval="2223" data-pause="false">
+              <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider div-rounded" data-ride="carousel" data-interval="2111" data-pause="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="images/volunteer/1.jpg" alt="First slide">
@@ -141,7 +141,7 @@
       </div>  
     </div>  
 
-    <script>
+    <!-- <script>
       window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (currentScrollPos<=80) {
@@ -154,7 +154,7 @@
           document.getElementById("navbar").classList.add("bg-nav");
         }
       }
-    </script>
+    </script> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
