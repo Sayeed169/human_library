@@ -118,8 +118,8 @@
       <!-- VIDEO -->
       <div class="col-md-8 offset-md-2 col-12" id="hld_video">
         <video width="100%" controls loop autoplay class="video">
+          <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
           <source src="video/HLD.mp4" type="video/mp4">
-          <source src="mov_bbb.ogg" type="video/ogg">
           Your browser does not support HTML5 video.
         </video>
       </div>
@@ -256,7 +256,8 @@
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="subscribe" class="btn btn-primary">Send</button>
+              <!-- <button type="subscribe" class="btn btn-primary">Send</button> -->
+              <a type="subscribe" class="btn btn-primary" onclick="send_mail();">Send</a>
             </form>
           </div>
         </div>
@@ -311,6 +312,10 @@
         } else {
           document.getElementById("navbar").classList.add("fixed-top");
         }
+      }
+
+      function send_mail(){
+        
       }
     </script>
 
