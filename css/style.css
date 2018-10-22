@@ -44,7 +44,7 @@ p{
 	background-color: transparent ;
 }
 .nav-item-padding{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 50px 0px 50px;
 }
 .title{
 	color: var(--theme-color);
@@ -96,6 +96,11 @@ p{
 	font-weight: bold;
 }
 
+.carousel-height{
+	max-height: 400px;
+	min-height: 400px;
+}
+
 .figure-slider{
 	overflow: hidden !important;
 }
@@ -114,7 +119,6 @@ p{
 .contact-logo{
 	color: white;
 	font-weight: bold;
-	font-size: 20px;
 	padding: 10px;
 	border-radius: 50px;
 }
@@ -188,4 +192,15 @@ p{
 	display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .h-100{
+    	height: auto !important;
+    }
+
+    .carousel-height{
+    	max-height: 200px;
+    	min-height: 200px;
+    }
 }

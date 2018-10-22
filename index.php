@@ -28,7 +28,7 @@
   <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="80">
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-light bg-nav" id="navbar">
-          <div class="container">
+          <div class="container-fluid">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
               </button>
@@ -39,7 +39,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item nav-item-padding">
                         <div class="dropdown">
-                          <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
+                          <a class="nav-link dropdown-toggle active" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item d-md-block d-none" href="#how_it_works_l">HOW IT WORKS?</a>
                             <a class="dropdown-item d-md-none d-block" href="#how_it_works_s">HOW IT WORKS?</a>
@@ -193,7 +193,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
-          <div class="carousel-inner" style="max-height: 200px; min-height: 200px;">
+          <div class="carousel-inner carousel-height">
             <div class="carousel-item active">
               <img class="d-block w-100" src="images/images/1.jpg" alt="">
             </div>
@@ -242,22 +242,25 @@
           </div>
           <div class="">
             <p class="text-center">Send us your feedback!</p>
-            <form>
+            <form id="email_form" action="#">
               <div class="form-group">
-                <label for="exampleInputEmail">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                <!-- <label for="exampleInputEmail">Email address</label> -->
+                <input type="email" name="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email Address">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
-                <label for="exampleInputFullName">Full Name<i class="text-danger">*</i></label>
-                <input type="email" class="form-control" id="exampleInputFullName" required="true">
+                <!-- <label for="exampleInputFullName">Full Name<i class="text-danger">*</i></label> -->
+                <input type="text" name="name" class="form-control" id="exampleInputFullName" required="true" placeholder="Full Name">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <!-- <label for="exampleFormControlTextarea1">Message<i class="text-danger">*</i></label> -->
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required="true" placeholder="Type your message"></textarea>
               </div>
-              <!-- <button type="subscribe" class="btn btn-primary">Send</button> -->
-              <a type="subscribe" class="btn btn-primary" onclick="send_mail();">Send</a>
+              <div class="row">
+                <div class="col-2"><button type="submit" class="btn btn-primary">Send</button></div>
+                <div class="col-10"><p id="mail_status" class="text-right"></p></div>
+              </div>
+              <!-- <a type="submit" class="btn btn-primary" onclick="send_mail()">Send</a> -->
             </form>
           </div>
         </div>
@@ -269,31 +272,32 @@
           <div class="col-md-8 offset-md-2 col-12 mx-auto">
             <h3 class="title text-center">Our previous partners</h3>
             <div class="row">
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/HL.png" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/EMK.jpg" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/bc.jpg" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/garb.jpg" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/zb.png" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 offset-md-0 col-4 vertical">
                 <img src="images/logo/psb.png" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              
+              <div class="col-md-2 offset-md-3 col-4 vertical">
                 <img src="images/logo/tmcb.png" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 col-4 vertical">
                 <img src="images/logo/ulab.jpg" class="img img-fluid">
               </div>
-              <div class="col-md-3 offset-md-1 col-4 logo-div vertical">
+              <div class="col-md-2 col-4 vertical">
                 <img src="images/logo/sb.png" class="img img-fluid">
               </div>
               
@@ -314,14 +318,32 @@
         }
       }
 
-      function send_mail(){
-        
-      }
+      $('#email_form').submit(function(event){
+        event.preventDefault();
+        $.ajax({
+          type: 'POST',
+          url: 'http://localhost/human_library/mail.php',
+          data: $(this).serialize(),
+          success: function(result){
+            console.log(result);
+            var status = document.getElementById('mail_status');
+            if(result==1){
+              status.innerHTML = "We have heared you voice!";
+              status.classList.add("text-success");
+            }else{
+              status.innerHTML = "Error while sending";
+              status.classList.add("text-danger");
+            }
+            document.getElementById('email_form').reset();
+          }
+        });
+      });
+
     </script>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
