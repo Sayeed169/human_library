@@ -33,7 +33,7 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-3 d-md-none d-block">
-                <a href="#"><img src="images/hld_logo.png" class="img img-fluid"></a>
+                <a href="#"><img data-src="images/hld_logo.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-center" id="navbar1">
                 <ul class="navbar-nav">
@@ -135,19 +135,19 @@
                 <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2000" data-pause="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/book/1.jpg" alt="First slide">
+                      <img class="d-block w-100" data-src="images/book/1.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/book/2.jpg" alt="Second slide">
+                      <img class="d-block w-100" data-src="images/book/2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/book/3.jpg" alt="Third slide">
+                      <img class="d-block w-100" data-src="images/book/3.jpg" alt="Third slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/book/4.jpg" alt="Fourth slide">
+                      <img class="d-block w-100" data-src="images/book/4.jpg" alt="Fourth slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/book/5.jpg" alt="Fifth slide">
+                      <img class="d-block w-100" data-src="images/book/5.jpg" alt="Fifth slide">
                     </div>
                   </div>
                 </div>
@@ -162,13 +162,13 @@
                   <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2223" data-pause="false">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/volunteer/1.jpg" alt="First slide">
+                        <img class="d-block w-100" data-src="images/volunteer/1.jpg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/volunteer/2.jpg" alt="Second slide">
+                        <img class="d-block w-100" data-src="images/volunteer/2.jpg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/volunteer/3.jpg" alt="Third slide">
+                        <img class="d-block w-100" data-src="images/volunteer/3.jpg" alt="Third slide">
                       </div>
                     </div>
                   </div>
@@ -195,19 +195,19 @@
           </ol>
           <div class="carousel-inner carousel-height">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="images/images/1.jpg" alt="">
+              <img class="d-block w-100" data-src="images/images/1.jpg" alt="First slide">
             </div>
             <div class="carousel-item div-rounded">
-              <img class="d-block w-100" src="images/images/2.jpg" alt="">
+              <img class="d-block w-100" data-src="images/images/2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/images/3.jpg" alt="">
+              <img class="d-block w-100" data-src="images/images/3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/images/4.jpg" alt="">
+              <img class="d-block w-100" data-src="images/images/4.jpg" alt="Fourth slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/images/5.jpg" alt="">
+              <img class="d-block w-100" data-src="images/images/5.jpg" alt="Fifth slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -273,32 +273,32 @@
             <h3 class="title text-center">Our previous partners</h3>
             <div class="row">
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/HL.png" class="img img-fluid">
+                <img data-src="images/logo/HL.png" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/EMK.jpg" class="img img-fluid">
+                <img data-src="images/logo/EMK.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/bc.jpg" class="img img-fluid">
+                <img data-src="images/logo/bc.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/garb.jpg" class="img img-fluid">
+                <img data-src="images/logo/garb.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/zb.png" class="img img-fluid">
+                <img data-src="images/logo/zb.png" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img src="images/logo/psb.png" class="img img-fluid">
+                <img data-src="images/logo/psb.png" class="img img-fluid">
               </div>
               
               <div class="col-md-2 offset-md-3 col-4 vertical">
-                <img src="images/logo/tmcb.png" class="img img-fluid">
+                <img data-src="images/logo/tmcb.png" class="img img-fluid">
               </div>
               <div class="col-md-2 col-4 vertical">
-                <img src="images/logo/ulab.jpg" class="img img-fluid">
+                <img data-src="images/logo/ulab.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 col-4 vertical">
-                <img src="images/logo/sb.png" class="img img-fluid">
+                <img data-src="images/logo/sb.png" class="img img-fluid">
               </div>
               
             </div>
@@ -309,35 +309,6 @@
     </div> 
 
     <script>
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (currentScrollPos<=120) {
-          document.getElementById("navbar").classList.remove("fixed-top");
-        } else {
-          document.getElementById("navbar").classList.add("fixed-top");
-        }
-      }
-
-      $('#email_form').submit(function(event){
-        event.preventDefault();
-        $.ajax({
-          type: 'POST',
-          url: 'http://localhost/human_library/mail.php',
-          data: $(this).serialize(),
-          success: function(result){
-            console.log(result);
-            var status = document.getElementById('mail_status');
-            if(result==1){
-              status.innerHTML = "We have heared you voice!";
-              status.classList.add("text-success");
-            }else{
-              status.innerHTML = "Error while sending";
-              status.classList.add("text-danger");
-            }
-            document.getElementById('email_form').reset();
-          }
-        });
-      });
 
     </script>
 
@@ -346,5 +317,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
