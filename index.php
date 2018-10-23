@@ -322,10 +322,10 @@
         event.preventDefault();
         $.ajax({
           type: 'POST',
-          url: 'http://localhost/human_library/mail.php',
+          url: 'http://humanlibrarybd.org/mail.php',
           data: $(this).serialize(),
           success: function(result){
-            console.log(result);
+            // console.log(result);
             var status = document.getElementById('mail_status');
             if(result==1){
               status.innerHTML = "We have heared you voice!";

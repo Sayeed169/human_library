@@ -9,9 +9,9 @@ require 'PHPMailer/src/SMTP.php';
 // var_dump($_POST);
 
 if(isset($_POST['name']) && isset($_POST['message'])){
-	$emailTo = "hasan.sayeed@bjitgroup.com";//"info@humanlibrarybd.org";
+	$emailTo = "info@humanlibrarybd.org";
 	$emailToName = "Human Library Dhaka";
-	$emailFrom = $_POST['email'];
+	$emailFrom = "info@humanlibrarybd.org";
 	$emailFromName = $_POST['name'];
 	$msg = $_POST['message'];
 
