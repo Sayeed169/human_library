@@ -300,7 +300,6 @@
               <div class="col-md-2 col-4 vertical">
                 <img data-src="images/logo/sb.png" class="img img-fluid">
               </div>
-              
             </div>
           </div>
         </div>

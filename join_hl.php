@@ -35,7 +35,7 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-3 d-md-none d-block">
-                <a href="#"><img src="images/hld_logo.png" class="img img-fluid"></a>
+                <a href="#"><img data-src="images/hld_logo.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-center" id="navbar1">
                 <ul class="navbar-nav">
