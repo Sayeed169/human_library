@@ -61,13 +61,13 @@
               <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider div-rounded" data-ride="carousel" data-interval="2111" data-pause="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" data-src="images/volunteer/1.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/volunteer/2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/volunteer/3.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/3.jpg" alt="Third slide">
                   </div>
                 </div>
               </div>
@@ -85,19 +85,19 @@
               <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider div-rounded" data-ride="carousel" data-interval="2222" data-pause="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" data-src="images/book/1.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/book/1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/book/2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/book/2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/book/3.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/book/3.jpg" alt="Third slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/book/4.jpg" alt="Fourth slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/book/4.jpg" alt="Fourth slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/book/5.jpg" alt="Fifth slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/book/5.jpg" alt="Fifth slide">
                   </div>
                 </div>
               </div>
@@ -115,16 +115,16 @@
               <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider div-rounded" data-ride="carousel" data-interval="2333" data-pause="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" data-src="images/org/1.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/org/1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/org/2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/org/2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/org/3.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/org/3.jpg" alt="Third slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" data-src="images/org/4.jpg" alt="Fourth slide">
+                    <img class="d-block w-100" src="images/loading.gif" data-src="images/org/4.jpg" alt="Fourth slide">
                   </div>
                 </div>
               </div>

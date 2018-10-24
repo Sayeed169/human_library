@@ -25,24 +25,24 @@
     <title>Human Library Bangladesh</title>
 
   </head>
-  <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="80">
+  <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="0">
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-light bg-nav" id="navbar">
-          <div class="container-fluid">
+          <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="navbar-band col-3 d-md-none d-block">
+              <div class="navbar-band col-md-1 col-3">
                 <a href="#"><img data-src="images/hld_logo.png" class="img img-fluid"></a>
               </div>
-              <div class="collapse navbar-collapse justify-content-md-center" id="navbar1">
+              <div class="collapse navbar-collapse justify-content-md-end" id="navbar1">
                 <ul class="navbar-nav">
                     <li class="nav-item nav-item-padding">
                         <div class="dropdown">
                           <a class="nav-link dropdown-toggle active" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item d-md-block d-none" href="#how_it_works_l">HOW IT WORKS?</a>
-                            <a class="dropdown-item d-md-none d-block" href="#how_it_works_s">HOW IT WORKS?</a>
+                            <a class="dropdown-item d-md-block d-none" href="#hld">HUMAN LIBRARY DHAKA</a>
+                            <a class="dropdown-item" href="#how_it_works_s">HOW IT WORKS?</a>
                             <a class="dropdown-item" href="#get_involved">GET INVOLVED</a>
                           </div>
                         </div>
@@ -59,24 +59,28 @@
       </nav>
 
       <!--ABOUT HUMAN LIBRARY-->
-      <div class="hl-div" id="about_us">  
+      <div class="hl-div" id="hld">  
         <div class="d-flex h-100 text-center">
-          <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 50px 50px 50px 50px;">
-            <h3 class="title">About Human Library Dhaka</h3>
+          <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 0 50px 50px 50px;">
+            <h1 class="title">What is Human Library</h1>
             <p class="text-justify">
               Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
             </p>
             
-            <h3 class="title">Why visit us?</h3>
+            <h3 class="title">Human Library Dhaka</h3>
             <p class="text-justify">
               You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
-            </p>        
+            </p>
+
+            <div class="col-md-6 offset-md-3 col-12" style="background-color: #3B5998;">
+              <a href="#"><i class="fab fa-facebook-f"></i> Human Library Dhaka</a>
+            </div>
           </div>
         </div>
       </div>
 
       <!--WORK FLOW DIV for LARGE SCREEN-->
-      <div class="d-md-block d-none text-center h-100" id="how_it_works_l">
+      <!-- <div class="d-md-block d-none text-center h-100" id="how_it_works_l">
         <div class="d-flex h-100">
           <div class="col-md-8 offset-md-2 col-12 align-self-center">
           <h3 class="title">How does it work?</h3>
@@ -94,23 +98,52 @@
           </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!--WORK FLOW DIV for SMALL SCREEN-->
-      <div class="d-md-none d-block text-center content-div" id="how_it_works_s">
+      <div class="text-center content-div" id="how_it_works_s">
         <div class="col-md-8 offset-md-2 col-12">
           <h1 class="title">How does it work?</h1>
           <div class="col-12 step-one-sm">
             <h5 class="hld-color">STEP ONE</h5>
-            <p>Select the Human Books to be loaned</p>
+            <p>Come to our event venue</p>
           </div>
           <div class="col-12 step-two-sm">
             <h5 class="hld-color">STEP TWO</h5>
-            <p>Receive your library card with your scheduled readings</p>
+            <p>Get a library card from our library desk</p>
           </div>
           <div class="col-12 step-three-sm">
             <h5 class="hld-color">STEP THREE</h5>
-            <p>Attend your reading sessions</p>
+            <p>Receive your library card with tour scheduled reading</p>
+          </div>
+          <div class="col-12 step-four-sm">
+            <h5 class="hld-color">STEP Four</h5>
+            <p>Attend your reading session</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEMP WORKFLOW -->
+      <div class="text-center content-div" id="how_it_works_s">
+        <div class="col-md-8 offset-md-2 col-12">
+          <h1 class="title">How does it work?</h1>
+          <div class="row">
+            <div class="col-md col-6 step vertical">
+              <!-- <h5 class="hld-color">STEP ONE</h5> -->
+              <p>Come to our event venue</p>
+            </div>
+            <div class="col-md col-6 step vertical">
+              <!-- <h5 class="hld-color">STEP TWO</h5> -->
+              <p>Get a library card from our library desk</p>
+            </div>
+            <div class="col-md col-6 step vertical">
+              <!-- <h5 class="hld-color">STEP THREE</h5> -->
+              <p>Receive your library card with tour scheduled reading</p>
+            </div>
+            <div class="col-md col-6 step vertical">
+              <!-- <h5 class="hld-color">STEP Four</h5> -->
+              <p>Attend your reading session</p>
+            </div>
           </div>
         </div>
       </div>
@@ -135,19 +168,19 @@
                 <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2000" data-pause="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" data-src="images/book/1.jpg" alt="First slide">
+                      <img class="d-block w-100" src="images/loading.gif" data-src="images/book/1.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" data-src="images/book/2.jpg" alt="Second slide">
+                      <img class="d-block w-100" src="images/loading.gif" data-src="images/book/2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" data-src="images/book/3.jpg" alt="Third slide">
+                      <img class="d-block w-100" src="images/loading.gif" data-src="images/book/3.jpg" alt="Third slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" data-src="images/book/4.jpg" alt="Fourth slide">
+                      <img class="d-block w-100" src="images/loading.gif" data-src="images/book/4.jpg" alt="Fourth slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" data-src="images/book/5.jpg" alt="Fifth slide">
+                      <img class="d-block w-100" src="images/loading.gif" data-src="images/book/5.jpg" alt="Fifth slide">
                     </div>
                   </div>
                 </div>
@@ -162,13 +195,13 @@
                   <div id="carouselExampleSlidesOnly" class="carousel carousel-fade figure-slider shadow-light div-rounded" data-ride="carousel" data-interval="2223" data-pause="false">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img class="d-block w-100" data-src="images/volunteer/1.jpg" alt="First slide">
+                        <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/1.jpg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" data-src="images/volunteer/2.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/2.jpg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" data-src="images/volunteer/3.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="images/loading.gif" data-src="images/volunteer/3.jpg" alt="Third slide">
                       </div>
                     </div>
                   </div>
@@ -195,19 +228,19 @@
           </ol>
           <div class="carousel-inner carousel-height">
             <div class="carousel-item active">
-              <img class="d-block w-100" data-src="images/images/1.jpg" alt="First slide">
+              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/1.jpg" alt="First slide">
             </div>
             <div class="carousel-item div-rounded">
-              <img class="d-block w-100" data-src="images/images/2.jpg" alt="Second slide">
+              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" data-src="images/images/3.jpg" alt="Third slide">
+              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" data-src="images/images/4.jpg" alt="Fourth slide">
+              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/4.jpg" alt="Fourth slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" data-src="images/images/5.jpg" alt="Fifth slide">
+              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/5.jpg" alt="Fifth slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -234,9 +267,9 @@
               </div>  
             </div>
             <div class="col-md col-12" style="padding-top: 25px; padding-bottom: 50px;">
-              <h6>Visit our facbook page</h6>
+              <h6>Email us</h6>
               <div class="contact-logo" style="background-color: #3B5998;">
-                <i class="fab fa-facebook-f"></i> /humanlibrarydhaka
+                <i class="far fa-envelope"></i></i> info@humanlibrarybd.org
               </div>
             </div>
           </div>
@@ -270,35 +303,35 @@
       <div class="container text-center d-flex h-100" id="partners">
         <div class="row align-self-center">
           <div class="col-md-8 offset-md-2 col-12 mx-auto">
-            <h3 class="title text-center">Our previous partners</h3>
+            <h3 class="title text-center">Partners in development</h3>
             <div class="row">
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/HL.png" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/HL.png" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/EMK.jpg" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/EMK.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/bc.jpg" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/bc.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/garb.jpg" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/garb.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/zb.png" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/zb.png" class="img img-fluid">
               </div>
               <div class="col-md-2 offset-md-0 col-4 vertical">
-                <img data-src="images/logo/psb.png" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/psb.png" class="img img-fluid">
               </div>
               
               <div class="col-md-2 offset-md-3 col-4 vertical">
-                <img data-src="images/logo/tmcb.png" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/tmcb.png" class="img img-fluid">
               </div>
               <div class="col-md-2 col-4 vertical">
-                <img data-src="images/logo/ulab.jpg" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/ulab.jpg" class="img img-fluid">
               </div>
               <div class="col-md-2 col-4 vertical">
-                <img data-src="images/logo/sb.png" class="img img-fluid">
+                <img src="images/loading.gif" data-src="images/logo/sb.png" class="img img-fluid">
               </div>
             </div>
           </div>
