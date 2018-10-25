@@ -1,9 +1,9 @@
 window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (currentScrollPos<=120) {
-          document.getElementById("navbar").classList.remove("fixed-top");
+          // document.getElementById("navbar").classList.remove("fixed-top");
         } else {
-          document.getElementById("navbar").classList.add("fixed-top");
+          // document.getElementById("navbar").classList.add("fixed-top");
         }
       }
 

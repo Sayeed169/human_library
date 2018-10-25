@@ -27,13 +27,13 @@
   </head>
   <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="0">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-nav" id="navbar">
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-nav" id="navbar">
           <div class="container">
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-band col-md-1 col-3">
-                <a href="#"><img data-src="images/hld_logo.png" class="img img-fluid"></a>
+                <a href="#"><img id="nav-logo" data-src="images/hld_logo.png" class="img img-fluid"></a>
               </div>
               <div class="collapse navbar-collapse justify-content-md-end" id="navbar1">
                 <ul class="navbar-nav">
@@ -61,7 +61,7 @@
       <!--ABOUT HUMAN LIBRARY-->
       <div class="hl-div" id="hld">  
         <div class="d-flex h-100 text-center">
-          <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 0 50px 50px 50px;">
+          <div class="col-md-8 offset-md-2 col-12" style="background-color: #f0ffffb5; padding: 80px 50px 50px 50px;">
             <h1 class="title">What is Human Library</h1>
             <p class="text-justify">
               Human Library Dhaka is a local branch of the Human Library Organization that was originally founded by Ronni Abergel in Denmark. It has been designed to fight stereotypes by teaching people to not judge a book by its cover. The library presents people as Human Books who have had experiences of prejudice due to their faith/color/gender/race/profession/lifestyle. In each session of the library, Human Books share those experiences with a group of 5-6 people we like to call “readers”. The readers in turn ask difficult questions which help them to step into the book’s shoes and understand the book better. There are around 3-5 sessions in one day.
@@ -72,86 +72,59 @@
               You can help Bangladesh to be the most inclusive society by lending your ears to those who have felt unheard and misunderstood for so long. Your 20 minutes of time can break a stereotype which will not only make a person feel more included but also help you take lessons from someone else’s experience.
             </p>
 
-            <div class="col-md-6 offset-md-3 col-12" style="background-color: #3B5998;">
-              <a href="#"><i class="fab fa-facebook-f"></i> Human Library Dhaka</a>
-            </div>
+            <a href="http://www.facebook.com/humanlibrarydhaka" target="_blank" class="fb-btn vertical horizental">
+              <span><i class="fab fa-facebook-f"></i></span>
+            </a>
           </div>
         </div>
       </div>
 
-      <!--WORK FLOW DIV for LARGE SCREEN-->
-      <!-- <div class="d-md-block d-none text-center h-100" id="how_it_works_l">
-        <div class="d-flex h-100">
-          <div class="col-md-8 offset-md-2 col-12 align-self-center">
-          <h3 class="title">How does it work?</h3>
-          <div class="col-4 step-lg">
-            <h5 class="hld-color">STEP ONE</h5>
-            <p>Select the Human Books to be loaned</p>
-          </div>
-          <div class="col-4 offset-4 step-lg">
-            <h5 class="hld-color">STEP TWO</h5>
-            <p>Receive your library card with your scheduled readings</p>
-          </div>
-          <div class="col-4 offset-8 step-lg">
-            <h5 class="hld-color">STEP THREE</h5>
-            <p>Attend your reading sessions</p>
-          </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!--WORK FLOW DIV for SMALL SCREEN-->
+      <!--WORK FLOW DIV-->
       <div class="text-center content-div" id="how_it_works_s">
-        <div class="col-md-8 offset-md-2 col-12">
-          <h1 class="title">How does it work?</h1>
-          <div class="col-12 step-one-sm">
-            <h5 class="hld-color">STEP ONE</h5>
-            <p>Come to our event venue</p>
-          </div>
-          <div class="col-12 step-two-sm">
-            <h5 class="hld-color">STEP TWO</h5>
-            <p>Get a library card from our library desk</p>
-          </div>
-          <div class="col-12 step-three-sm">
-            <h5 class="hld-color">STEP THREE</h5>
-            <p>Receive your library card with tour scheduled reading</p>
-          </div>
-          <div class="col-12 step-four-sm">
-            <h5 class="hld-color">STEP Four</h5>
-            <p>Attend your reading session</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- TEMP WORKFLOW -->
-      <div class="text-center content-div" id="how_it_works_s">
-        <div class="col-md-8 offset-md-2 col-12">
+        <div class="col-md-8 offset-md-2">
           <h1 class="title">How does it work?</h1>
           <div class="row">
-            <div class="col-md col-6 step vertical">
-              <!-- <h5 class="hld-color">STEP ONE</h5> -->
-              <p>Come to our event venue</p>
+            <div class="col-md col-12 justify-content-center">
+              <h5 class="hld-color">STEP ONE</h5>
+              <div class="step vertical horizental">
+                <h6>Come to our</h6>
+                <h6>event venue</h6>
+              </div>
             </div>
-            <div class="col-md col-6 step vertical">
-              <!-- <h5 class="hld-color">STEP TWO</h5> -->
-              <p>Get a library card from our library desk</p>
+            <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
+            <div class="col-md col-12 justify-content-center">
+              <h5 class="hld-color">STEP TWO</h5>
+              <div class="step vertical horizental">
+                <h6>Get a library</h6>
+                <h6>card from our</h6>
+                <h6>library desk</h6>
+              </div>
             </div>
-            <div class="col-md col-6 step vertical">
-              <!-- <h5 class="hld-color">STEP THREE</h5> -->
-              <p>Receive your library card with tour scheduled reading</p>
+            <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
+            <div class="col-md col-12 justify-content-center">
+              <h5 class="hld-color">STEP THREE</h5>
+              <div class="step vertical horizental">
+                <h6>Receive your</h6>
+                <h6>library card with</h6>
+                <h6>tour scheduled</h6>
+                <h6>reading</h6>
+              </div>
             </div>
-            <div class="col-md col-6 step vertical">
-              <!-- <h5 class="hld-color">STEP Four</h5> -->
-              <p>Attend your reading session</p>
+            <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
+            <div class="col-md col-12 justify-content-center">
+              <h5 class="hld-color">STEP FOUR</h5>
+              <div class="step vertical horizental">
+                <h6>Attend your</h6>
+                <h6>reading session</h6>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
 
       <!-- VIDEO -->
       <div class="col-md-8 offset-md-2 col-12" id="hld_video">
-        <video width="100%" controls loop autoplay class="video">
-          <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+        <video width="100%" controls loop autoplay muted class="video">
           <source src="video/HLD.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
@@ -218,40 +191,40 @@
       <!--Courasel-->
       <div class="content-div">
         <div class="col-md-8 offset-md-2 col-12">
-        <div id="carouselExampleIndicators" class="carousel slide figure-slider" data-ride="carousel" data-interval="2000" data-pause="false">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner carousel-height">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/1.jpg" alt="First slide">
+          <div id="carouselExampleIndicators" class="carousel slide figure-slider" data-ride="carousel" data-interval="2000" data-pause="false">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner carousel-height">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/loading.gif" data-src="images/images/1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item div-rounded">
+                <img class="d-block w-100" src="images/loading.gif" data-src="images/images/2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/loading.gif" data-src="images/images/3.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/loading.gif" data-src="images/images/4.jpg" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/loading.gif" data-src="images/images/5.jpg" alt="Fifth slide">
+              </div>
             </div>
-            <div class="carousel-item div-rounded">
-              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/3.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/4.jpg" alt="Fourth slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/loading.gif" data-src="images/images/5.jpg" alt="Fifth slide">
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
         </div>
       <div>
 
@@ -262,13 +235,13 @@
           <div class="row text-center">
             <div class="col-md col-12" style="padding-top: 25px;">
               <h6>Call Us</h6>
-              <div class="contact-logo" style="background-color: cadetblue;">
+              <div class="contact-logo" style="background-color: darkslategrey;">
                 <i class="fas fa-phone"></i> +8801836537815
               </div>  
             </div>
             <div class="col-md col-12" style="padding-top: 25px; padding-bottom: 50px;">
               <h6>Email us</h6>
-              <div class="contact-logo" style="background-color: #3B5998;">
+              <div class="contact-logo" style="background-color: dimgray;">
                 <i class="far fa-envelope"></i></i> info@humanlibrarybd.org
               </div>
             </div>
@@ -277,23 +250,19 @@
             <p class="text-center">Send us your feedback!</p>
             <form id="email_form" action="#">
               <div class="form-group">
-                <!-- <label for="exampleInputEmail">Email address</label> -->
                 <input type="email" name="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email Address">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
-                <!-- <label for="exampleInputFullName">Full Name<i class="text-danger">*</i></label> -->
                 <input type="text" name="name" class="form-control" id="exampleInputFullName" required="true" placeholder="Full Name">
               </div>
               <div class="form-group">
-                <!-- <label for="exampleFormControlTextarea1">Message<i class="text-danger">*</i></label> -->
                 <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required="true" placeholder="Type your message"></textarea>
               </div>
               <div class="row">
                 <div class="col-2"><button type="submit" class="btn btn-primary">Send</button></div>
                 <div class="col-10"><p id="mail_status" class="text-right"></p></div>
               </div>
-              <!-- <a type="submit" class="btn btn-primary" onclick="send_mail()">Send</a> -->
             </form>
           </div>
         </div>

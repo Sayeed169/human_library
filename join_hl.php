@@ -76,7 +76,7 @@
                 <p class="card-text">If you&#39;d like to be part of the team of Volunteers for our upcoming event(s), please indicate your interest using the form linked below. You&#39;d receive the recruitment emails we send out once we&#39;ve confirmed the details for the next event.</p>
               </div>
               <div class="card-footer">
-                <a href="https://docs.google.com/forms/d/14O7mzIkqqp0YcJj-ravOMdsXc5DcsnIzSaFUpN7fRCE/edit" class="card-btn">Join us</a>
+                <a href="https://docs.google.com/forms/d/14O7mzIkqqp0YcJj-ravOMdsXc5DcsnIzSaFUpN7fRCE/edit" class="card-btn a-color">Join us</a>
               </div>
             </div>
           </div>  
@@ -106,7 +106,7 @@
                 <p class="card-text">If you have faced any prejudice or have been stereotyped due to your appearance, gender, profession, faith, race, academic background, social class, color, lifestyle or any other personal choice and if you are interested to be an &quot;open book&quot;, then you may fill this form up</p>
               </div>
               <div class="card-footer">
-                <a href="https://docs.google.com/forms/d/1fSeLQrGFC8zWPKNqPrAoNeUoFCXQY1QzvINkBByL1fM/edit" class="card-btn">Join us</a>
+                <a href="https://docs.google.com/forms/d/1fSeLQrGFC8zWPKNqPrAoNeUoFCXQY1QzvINkBByL1fM/edit" class="card-btn a-color">Join us</a>
               </div>
             </div>
           </div>  
@@ -133,7 +133,7 @@
                 <p class="card-text">If you&#39;re part of an educational institution or any other organisation and you&#39;d like to organise a Human Library, please drop us an email at info@humanlibrarybd.org</p>
               </div>
               <div class="card-footer">
-                <a href="#" class="card-btn">Email us</a>
+                <a href="#" class="card-btn a-color">Email us</a>
               </div>
             </div>
           </div>  
