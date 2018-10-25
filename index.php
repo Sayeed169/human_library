@@ -41,7 +41,7 @@
                         <div class="dropdown">
                           <a class="nav-link dropdown-toggle active" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item d-md-block d-none" href="#hld">HUMAN LIBRARY DHAKA</a>
+                            <a class="dropdown-item" href="#hld">HUMAN LIBRARY DHAKA</a>
                             <a class="dropdown-item" href="#how_it_works_s">HOW IT WORKS?</a>
                             <a class="dropdown-item" href="#get_involved">GET INVOLVED</a>
                           </div>
@@ -124,7 +124,7 @@
 
       <!-- VIDEO -->
       <div class="col-md-8 offset-md-2 col-12" id="hld_video">
-        <video width="100%" controls loop autoplay muted class="video">
+        <video width="100%" controls loop autoplay class="video">
           <source src="video/HLD.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
