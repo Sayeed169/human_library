@@ -73,7 +73,7 @@
             </p>
 
             <a href="http://www.facebook.com/humanlibrarydhaka" target="_blank" class="fb-btn vertical horizental">
-              <span><i class="fab fa-facebook-f"></i></span>
+              <i class="fab fa-facebook-f"></i>
             </a>
           </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="col-md-8 offset-md-2">
           <h1 class="title">How does it work?</h1>
           <div class="row">
-            <div class="col-md col-12 justify-content-center">
+            <div class="col-md col-12 justify-content-center" style="padding-bottom: 30px;">
               <h5 class="hld-color">STEP ONE</h5>
               <div class="step vertical horizental">
                 <h6>Come to our</h6>
@@ -92,7 +92,7 @@
               </div>
             </div>
             <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
-            <div class="col-md col-12 justify-content-center">
+            <div class="col-md col-12 justify-content-center" style="padding-bottom: 30px;">
               <h5 class="hld-color">STEP TWO</h5>
               <div class="step vertical horizental">
                 <h6>Get a library</h6>
@@ -101,7 +101,7 @@
               </div>
             </div>
             <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
-            <div class="col-md col-12 justify-content-center">
+            <div class="col-md col-12 justify-content-center" style="padding-bottom: 30px;">
               <h5 class="hld-color">STEP THREE</h5>
               <div class="step vertical horizental">
                 <h6>Receive your</h6>
@@ -111,7 +111,7 @@
               </div>
             </div>
             <i class="far fa-hand-point-right vertical pointer" style="color: var(--theme-color)"></i>
-            <div class="col-md col-12 justify-content-center">
+            <div class="col-md col-12 justify-content-center" style="padding-bottom: 30px;">
               <h5 class="hld-color">STEP FOUR</h5>
               <div class="step vertical horizental">
                 <h6>Attend your</h6>
