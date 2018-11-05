@@ -1,9 +1,15 @@
+//		DEVELOPED BY 
+//		SAYEED HASAN
+//sayeedhasan169@gmail.com
+
 window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (currentScrollPos<=120) {
-          // document.getElementById("navbar").classList.remove("fixed-top");
+        var element = document.getElementById("nav-logo");
+        console.log(element);
+        if (currentScrollPos<=200) {
+          element.style.width = "100%";
         } else {
-          // document.getElementById("navbar").classList.add("fixed-top");
+          element.style.width = "70%";
         }
       }
 

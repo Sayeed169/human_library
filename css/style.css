@@ -1,3 +1,5 @@
+/*DEVELOPED BY © SAYEED HASAN (sayeedhasan169@gmail.com)*/
+
 :root{
 	--theme-color: #004D40;
 	--theme-color-2: #00695C;
@@ -38,9 +40,11 @@ a:hover{
 .navbar-transparent{
 	background-color: transparent ;
 }
+
 .nav-item-padding{
 	padding: 0px 20px 0px 20px;
 }
+
 .title{
 	color: var(--theme-color);
 	padding: 30px;

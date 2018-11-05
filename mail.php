@@ -1,12 +1,11 @@
 <?php
+/*DEVELOPED BY © SAYEED HASAN (sayeedhasan169@gmail.com)*/
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
-
-// var_dump($_POST);
 
 if(isset($_POST['name']) && isset($_POST['message'])){
 	$emailTo = "info@humanlibrarybd.org";
@@ -31,9 +30,8 @@ if(isset($_POST['name']) && isset($_POST['message'])){
 	$mail->setFrom($emailFrom, $emailFromName);
 	$mail->addAddress($emailTo, $emailToName);
 	$mail->Subject = 'HLD Message';
-	$mail->msgHTML($msg); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
+	$mail->msgHTML($msg);
 	$mail->AltBody = 'HTML messaging not supported';
-	// $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
 	if(!$mail->send()){
 	    // echo "Mailer Error: " . $mail->ErrorInfo;
