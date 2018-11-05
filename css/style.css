@@ -45,6 +45,31 @@ a:hover{
 	padding: 0px 20px 0px 20px;
 }
 
+.nav-link.active{
+	color:#004D40 !important;
+  	text-shadow: 0 0 1px #555 !important;
+}
+.nav-link:hover, .nav-link:focus{
+	color:#004D40 !important;
+}
+
+.dropdown{
+	cursor: pointer !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+	color: #16181b;
+	text-decoration: none;
+	background-color: #dadada;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #004D40;
+	color: white;
+  	text-decoration: none;
+}
+
+
 .title{
 	color: var(--theme-color);
 	padding: 30px;

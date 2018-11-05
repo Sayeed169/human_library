@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" href="images/hld_logo.png" sizes="16x16">
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <!-- Font Awesome -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <!-- IBM Plex Sans -->
@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="css/style.css">
       <title>Human Library Bangladesh</title>
    </head>
-   <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="0">
+   <body class="h-100" data-spy="scroll" data-target=".navbar" data-offset="70">
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-nav" id="navbar">
          <div class="container">
@@ -31,19 +31,18 @@
                <ul class="navbar-nav">
                   <li class="nav-item nav-item-padding">
                      <div class="dropdown">
-                        <a class="nav-link dropdown-toggle active" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
+                        <a class="nav-link nav-link-color dropdown-toggle active" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                            <a class="dropdown-item" href="#hld">HUMAN LIBRARY DHAKA</a>
                            <a class="dropdown-item" href="#how_it_works_s">HOW IT WORKS?</a>
-                           <!-- <a class="dropdown-item" href="#get_involved">GET INVOLVED</a> -->
                         </div>
                      </div>
                   </li>
                   <li class="nav-item nav-item-padding" id="join">
-                     <a class="nav-link" href="#get_involved">JOIN HL BD FAMILY</a>
+                     <a class="nav-link nav-link-color" href="#get_involved">JOIN HL BD FAMILY</a>
                   </li>
                   <li class="nav-item nav-item-padding" id="contact">
-                     <a class="nav-link" href="#contact_us">CONTACT</a>
+                     <a class="nav-link nav-link-color" href="#contact_us">CONTACT</a>
                   </li>
                </ul>
             </div>
