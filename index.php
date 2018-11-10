@@ -11,8 +11,6 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <!-- IBM Plex Sans -->
       <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <!-- External CSS -->
       <link rel="stylesheet" href="css/style.css">
       <title>Human Library Bangladesh</title>
