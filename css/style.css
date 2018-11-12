@@ -78,7 +78,7 @@ a:hover{
 }
 
 .hl-div{
-	background-image: url('../images/1.jpg');
+	background-image: url('https://res.cloudinary.com/humanlibbd/image/upload/v1541991655/images/1.jpg');
 	background-repeat: none;
 	background-position: center;
 	background-size: cover;
