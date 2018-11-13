@@ -5,7 +5,6 @@
 window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         var element = document.getElementById("nav-logo");
-        console.log(element);
         if (currentScrollPos<=200) {
           element.style.width = "100%";
         } else {
