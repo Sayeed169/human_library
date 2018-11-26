@@ -6,9 +6,9 @@ window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         var element = document.getElementById("nav-logo");
         if (currentScrollPos<=200) {
-          element.style.width = "100%";
-        } else {
           element.style.width = "70%";
+        } else {
+          element.style.width = "100%";
         }
       }
 
