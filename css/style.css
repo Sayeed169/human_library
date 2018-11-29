@@ -232,6 +232,10 @@ a:hover{
 	border-radius: 5px;
 }
 
+.big-text-div{
+	 background-color: #f0ffffb5;
+	 padding: 80px 50px 50px 50px;
+}
 @media only screen and (max-width: 600px) {
     .h-100{
     	height: auto !important;
@@ -244,5 +248,9 @@ a:hover{
 
     .pointer{
     	display: none;
+    }
+
+    .big-text-div{
+    	padding: 80px 20px 50px 20px;
     }
 }
