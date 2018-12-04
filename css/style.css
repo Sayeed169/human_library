@@ -70,11 +70,21 @@ a:hover{
 }
 
 
-.title{
-	color: var(--theme-color);
-	padding: 30px;
+.title-font{
+	padding: 15px 50px;
 	font-weight: bold;
 	text-shadow: 0px 1px 1px black;
+}
+
+.title-color{
+	background-color: transparent;
+	color: var(--theme-color);
+}
+
+.square-title{
+	background-color: var(--theme-color);
+	color: var(--theme-bg);
+	border-radius: 10px;
 }
 
 .hl-div{
@@ -253,4 +263,6 @@ a:hover{
     .big-text-div{
     	padding: 80px 20px 50px 20px;
     }
+
+    
 }
